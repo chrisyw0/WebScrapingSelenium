@@ -299,7 +299,7 @@ class RacingPostFastResult(WebScrapper):
         race_info_dict["horse_rank"] = horse_records
         
         # additional race info
-        race_info_ols = self.get_web_elements(xpath="//div[contains(@class, 'rp-raceInfo')]/ul/ol")
+        race_info_ols = self.get_web_elements(xpath="//div[contains(@class, 'rp-raceInfo')]/ul/li")
         extra_infos = []
 
         for ol in race_info_ols:

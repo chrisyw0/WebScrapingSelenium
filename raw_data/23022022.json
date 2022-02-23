@@ -1,5 +1,650 @@
 [
     {
+        "url": "https://www.racingpost.com/results/1079/kempton-aw/2022-02-23/803361",
+        "time": "5:30",
+        "date": "23 Feb 2022",
+        "title": "Unibet Horserace Betting Operator Of The Year Apprentice Handicap (London Mile Series Qualifier)",
+        "course": "Kempton (AW)",
+        "rating": "(0-85, 4yo+)",
+        "distance": "1m",
+        "class": "(Class 4)",
+        "condition": "Standard To Slow",
+        "prize": [
+            {
+                "1st": "\u00a35,616"
+            },
+            {
+                "2nd": "\u00a32,636.40"
+            },
+            {
+                "3rd": "\u00a31,318.72"
+            },
+            {
+                "4th": "\u00a3659.36"
+            },
+            {
+                "5th": "\u00a3300"
+            },
+            {
+                "6th": "\u00a3300"
+            }
+        ],
+        "horse_rank": [
+            {
+                "horse_rank": "1",
+                "horse_draw": "6",
+                "horse_length": "",
+                "horse_no": "7.",
+                "horse_name": "Proclaimer right",
+                "horse_country": "",
+                "horse_odd": "9/2",
+                "horse_slik_url": "https://www.rp-assets.com/svg/8/3/8/278838.svg",
+                "horse_jockey": "Oisin McSweeney",
+                "horse_trainer": "Julie Camacho",
+                "horse_age": "5",
+                "horse_or": "73",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 11/2)",
+                "horse_silk": "278838.svg"
+            },
+            {
+                "horse_rank": "2",
+                "horse_draw": "7",
+                "horse_length": "hd",
+                "horse_no": "3.",
+                "horse_name": "Baldomero right",
+                "horse_country": "(IRE)",
+                "horse_odd": "3/1F",
+                "horse_slik_url": "https://www.rp-assets.com/svg/1/7/2/314271.svg",
+                "horse_jockey": "Frederick Larson",
+                "horse_trainer": "Michael Appleby",
+                "horse_age": "4",
+                "horse_or": "85",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 11/5)",
+                "horse_silk": "314271.svg"
+            },
+            {
+                "horse_rank": "3",
+                "horse_draw": "3",
+                "horse_length": "2\u00be",
+                "horse_no": "8.",
+                "horse_name": "Espresso Freddo right",
+                "horse_country": "(IRE)",
+                "horse_odd": "9/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/0/1/4/231410.svg",
+                "horse_jockey": "Mollie Phillips",
+                "horse_trainer": "Robert Stephens",
+                "horse_age": "8",
+                "horse_or": "72",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 10/1 tchd 11/1)",
+                "horse_silk": "231410.svg"
+            },
+            {
+                "horse_rank": "4",
+                "horse_draw": "8",
+                "horse_length": "\u00be",
+                "horse_no": "2.",
+                "horse_name": "Uzincso right",
+                "horse_country": "",
+                "horse_odd": "11/2",
+                "horse_slik_url": "https://www.rp-assets.com/svg/3/8/6/164683.svg",
+                "horse_jockey": "Harry Burns",
+                "horse_trainer": "John Butler",
+                "horse_age": "6",
+                "horse_or": "85",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 6/1)",
+                "horse_silk": "164683.svg"
+            },
+            {
+                "horse_rank": "5",
+                "horse_draw": "4",
+                "horse_length": "\u00bd",
+                "horse_no": "9.",
+                "horse_name": "Dynakite right",
+                "horse_country": "",
+                "horse_odd": "4/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/2/3/1/276132.svg",
+                "horse_jockey": "Levi Williams",
+                "horse_trainer": "Robyn Brisland",
+                "horse_age": "4",
+                "horse_or": "67",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(tchd 7/2)",
+                "horse_silk": "276132.svg"
+            },
+            {
+                "horse_rank": "6",
+                "horse_draw": "2",
+                "horse_length": "hd",
+                "horse_no": "5.",
+                "horse_name": "May Night right",
+                "horse_country": "",
+                "horse_odd": "4/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/0/0/1/17100.svg",
+                "horse_jockey": "Harry Davies",
+                "horse_trainer": "Andrew Balding",
+                "horse_age": "4",
+                "horse_or": "83",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(tchd 7/2)",
+                "horse_silk": "17100.svg"
+            },
+            {
+                "horse_rank": "7",
+                "horse_draw": "9",
+                "horse_length": "shd",
+                "horse_no": "4.",
+                "horse_name": "Tricolore right",
+                "horse_country": "(ITY)",
+                "horse_odd": "16/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/0/7/2/314270.svg",
+                "horse_jockey": "Christian Howarth",
+                "horse_trainer": "Marco Botti",
+                "horse_age": "4",
+                "horse_or": "84",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 22/1 tchd 25/1)",
+                "horse_silk": "314270.svg"
+            },
+            {
+                "horse_rank": "8",
+                "horse_draw": "1",
+                "horse_length": "\u00bd",
+                "horse_no": "6.",
+                "horse_name": "History Writer right",
+                "horse_country": "(IRE)",
+                "horse_odd": "100/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/1/2/5/237521.svg",
+                "horse_jockey": "Aidan Keeley",
+                "horse_trainer": "Mark Hoad",
+                "horse_age": "7",
+                "horse_or": "77",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 125/1)",
+                "horse_silk": "237521.svg"
+            },
+            {
+                "horse_rank": "9",
+                "horse_draw": "5",
+                "horse_length": "6",
+                "horse_no": "1.",
+                "horse_name": "Seventh Kingdom right",
+                "horse_country": "",
+                "horse_odd": "150/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/3/9/2/306293.svg",
+                "horse_jockey": "Callum Hutchinson",
+                "horse_trainer": "Jamie Osborne",
+                "horse_age": "4",
+                "horse_or": "85",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "(op 125/1)",
+                "horse_silk": "306293.svg"
+            }
+        ],
+        "extra_info": "9 ran Off time: 5:30:30 Winning time: 1m 41.36s (slow by 4.56s) Total SP: 117%\n1st owner: Owners Group 033 (Proclaimer) right 1st breeder: Cheveley Park Stud Ltd\n2nd owner: The Horse Watchers 6 (Baldomero) right\n3rd owner: Threes Company (Espresso Freddo) right\nTote win: \u00a35.50 PL: \u00a31.60 \u00a31.60 \u00a32.30 Ex: \u00a324.50 CSF: \u00a318.52 Tricast: \u00a3117.17 Trifecta: \u00a3151.30\nJackpot:\nPlacepot: \u00a3 to a \u00a31 stake. Pool: \u00a3 - winning units\nQuadpot: \u00a3 to a \u00a31 stake. Pool: \u00a3 - winning units\nDBI (SP%): L [Stalls 1-3] 40 (27%) M [4-6] 57 (33%) H [7-9] 53 (40%)",
+        "race_info_comment": null,
+        "UUID": "455d5ed8c8e5432195149fe485d65e2f"
+    },
+    {
+        "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803231",
+        "time": "5:20",
+        "date": "23 Feb 2022",
+        "title": "Bitterley Races 2nd April Maiden Hurdle (GBB Race)",
+        "course": "Ludlow",
+        "rating": "(5yo+)",
+        "distance": "(2m7f174yds)",
+        "class": "(Class 4)",
+        "condition": "Soft",
+        "prize": [
+            {
+                "1st": "\u00a35,854.44"
+            },
+            {
+                "2nd": "\u00a32,697.18"
+            },
+            {
+                "3rd": "\u00a31,348.05"
+            },
+            {
+                "4th": "\u00a3675.10"
+            }
+        ],
+        "horse_rank": [
+            {
+                "horse_rank": "1",
+                "horse_draw": "",
+                "horse_length": "",
+                "horse_no": "4.",
+                "horse_name": "Pulling Stumps right",
+                "horse_country": "(IRE)",
+                "horse_odd": "11/10F",
+                "horse_slik_url": "https://www.rp-assets.com/svg/7/9/9/309997.svg",
+                "horse_jockey": "Tom O'Brien",
+                "horse_trainer": "Philip Hobbs",
+                "horse_age": "5",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Close up, led and made rest from 7th, mistake 3 out, soon pushed along, ridden approaching last, kept on strongly and went clear run-in (op 6/5 tchd 5/4)",
+                "horse_silk": "309997.svg"
+            },
+            {
+                "horse_rank": "2",
+                "horse_draw": "",
+                "horse_length": "7\u00bd",
+                "horse_no": "7.",
+                "horse_name": "Robin Des Fox right",
+                "horse_country": "(IRE)",
+                "horse_odd": "7/2",
+                "horse_slik_url": "https://www.rp-assets.com/svg/5/7/2/312275.svg",
+                "horse_jockey": "Jack Andrews",
+                "horse_trainer": "Oliver Signy",
+                "horse_age": "6",
+                "horse_or": "112",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Led, headed and close up 7th, ridden 3 out, no extra from last, no match for winner (op 3/1 tchd 4/1)",
+                "horse_silk": "312275.svg"
+            },
+            {
+                "horse_rank": "3",
+                "horse_draw": "",
+                "horse_length": "1\u00bd",
+                "horse_no": "8.",
+                "horse_name": "Tea For Free right",
+                "horse_country": "(IRE)",
+                "horse_odd": "10/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/2/7/0/283072.svg",
+                "horse_jockey": "Paul O'Brien",
+                "horse_trainer": "Charlie Longsdon",
+                "horse_age": "7",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Took keen hold, held up in rear, ridden after 4 out, some headway when mistake last, went third run-in, kept on and just held third",
+                "horse_silk": "283072.svg"
+            },
+            {
+                "horse_rank": "4",
+                "horse_draw": "",
+                "horse_length": "nse",
+                "horse_no": "6.",
+                "horse_name": "Reilly right",
+                "horse_country": "(IRE)",
+                "horse_odd": "11/2",
+                "horse_slik_url": "https://www.rp-assets.com/svg/5/6/7/247765.svg",
+                "horse_jockey": "Bridget Andrews",
+                "horse_trainer": "Dan Skelton",
+                "horse_age": "6",
+                "horse_or": "120",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Held up in rear, headway 2nd, not fluent 6th, ridden before 3 out, mistake 3 out, disputing third run-in, kept on (tchd 9/2)",
+                "horse_silk": "247765.svg"
+            },
+            {
+                "horse_rank": "5",
+                "horse_draw": "",
+                "horse_length": "4\u00bc",
+                "horse_no": "3.",
+                "horse_name": "Moot Court right",
+                "horse_country": "(IRE)",
+                "horse_odd": "8/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/9/1/8/302819.svg",
+                "horse_jockey": "Paddy Brennan",
+                "horse_trainer": "Fergal O'Brien",
+                "horse_age": "7",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Took keen hold, held up in rear, headway and chased leaders before 3 out, ridden before 2 out, soon no impression, weakened and lost two places run-in (op 15/2)",
+                "horse_silk": "302819.svg"
+            },
+            {
+                "horse_rank": "6",
+                "horse_draw": "",
+                "horse_length": "30",
+                "horse_no": "2.",
+                "horse_name": "Harde Fashion right",
+                "horse_country": "",
+                "horse_odd": "16/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/3/6/2/262263.svg",
+                "horse_jockey": "Conor Ring",
+                "horse_trainer": "Daniel Bourne",
+                "horse_age": "6",
+                "horse_or": "114",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Close up, mistake 4th, pushed along 4 out, ridden and weakened before 3 out (tchd 14/1)",
+                "horse_silk": "262263.svg"
+            },
+            {
+                "horse_rank": "7",
+                "horse_draw": "",
+                "horse_length": "\u00bd",
+                "horse_no": "5.",
+                "horse_name": "Regal Pretender right",
+                "horse_country": "",
+                "horse_odd": "500/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/3/9/0/294093.svg",
+                "horse_jockey": "Charlie Hammond",
+                "horse_trainer": "Max Young",
+                "horse_age": "7",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Walked into the start, raced in last, not fluent 1st, pushed along 4 out, soon weakened (op 150/1)",
+                "horse_silk": "294093.svg"
+            }
+        ],
+        "extra_info": "7 ran Off time: 5:21:03 Winning time: 6m 15.10s (slow by 42.10s) Total SP: 112%\nNon-runners: Beep Beep (unsuitable ground)\n1st owner: Highclere T'Bred Racing - Pulling Stumps (Pulling Stumps) right 1st breeder: Brucetown Farms Ltd\n2nd owner: Barratt, Signy & Spiers (Robin Des Fox) right\n3rd owner: Mrs Susan Monkland (Tea For Free) right\nTote win: \u00a32.10 PL: \u00a31.20 \u00a32.20 Ex: \u00a36 CSF: \u00a34.99 Trifecta: \u00a328.90\nJackpot: Not won. \u00a33,493.76 carried forward to Thursday the 24th of February.\nPlacepot: \u00a329.90 to a \u00a31 stake. Pool: \u00a374,241.62 - 1808.28 winning units\nQuadpot: \u00a317.90 to a \u00a31 stake. Pool: \u00a36,710.73 - 276.28 winning units",
+        "race_info_comment": "",
+        "UUID": "8288fa1904404d7e8f5898fabb78c613"
+    },
+    {
+        "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803225",
+        "time": "5:10",
+        "date": "23 Feb 2022",
+        "title": "Virgin Bet Fives Open NH Flat Race (Category 1 Elimination) (Go North Jodami Series Qualifier) (GBB)",
+        "course": "Doncaster",
+        "rating": "(4-6yo)",
+        "distance": "(2m128yds)",
+        "class": "(Class 5)",
+        "condition": "Soft",
+        "prize": [
+            {
+                "1st": "\u00a32,614.08"
+            },
+            {
+                "2nd": "\u00a31,204.32"
+            },
+            {
+                "3rd": "\u00a3601.92"
+            },
+            {
+                "4th": "\u00a3301.44"
+            }
+        ],
+        "horse_rank": [
+            {
+                "horse_rank": "1",
+                "horse_draw": "",
+                "horse_length": "",
+                "horse_no": "2.",
+                "horse_name": "Heezer Geezer right",
+                "horse_country": "(FR)",
+                "horse_odd": "9/4",
+                "horse_slik_url": "https://www.rp-assets.com/svg/9/6/2/314269.svg",
+                "horse_jockey": "Harry Skelton",
+                "horse_trainer": "Dan Skelton",
+                "horse_age": "5",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Chased leader, shaken up but going okay under 3f out, pushed along when challenging 2f out, ridden to lead over 1f out, kept on well (op 2/1 tchd 15/8)",
+                "horse_silk": "314269.svg"
+            },
+            {
+                "horse_rank": "2",
+                "horse_draw": "",
+                "horse_length": "4\u00be",
+                "horse_no": "4.",
+                "horse_name": "Spectacular Genius right",
+                "horse_country": "(IRE)",
+                "horse_odd": "8/11F",
+                "horse_slik_url": "https://www.rp-assets.com/svg/7/0/4/169407.svg",
+                "horse_jockey": "Brian Hughes",
+                "horse_trainer": "Donald McCain",
+                "horse_age": "5",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Close up, shaken up to lead over 3f out, pushed along when faced challenge 2f out, soon ridden, headed over 1f out, soon no extra (op 4/7)",
+                "horse_silk": "169407.svg"
+            },
+            {
+                "horse_rank": "3",
+                "horse_draw": "",
+                "horse_length": "22",
+                "horse_no": "5.",
+                "horse_name": "Calton Hill right",
+                "horse_country": "(IRE)",
+                "horse_odd": "18/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/0/6/8/298860.svg",
+                "horse_jockey": "Rex Dingle",
+                "horse_trainer": "Louise Allan",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Chased leader, pushed along from 3f out, ridden and weakened from 2f out, soon beaten (op 25/1)",
+                "horse_silk": "298860.svg"
+            },
+            {
+                "horse_rank": "4",
+                "horse_draw": "",
+                "horse_length": "\u00be",
+                "horse_no": "1.",
+                "horse_name": "Franz Josef right",
+                "horse_country": "(IRE)",
+                "horse_odd": "6/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/2/3/7/296732.svg",
+                "horse_jockey": "Ryan Mania",
+                "horse_trainer": "Paul Robson",
+                "horse_age": "6",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Took keen hold, led at steady pace, increased tempo 4f out, headed over 3f out, soon pushed along and dropped to last, weakened from over 2f out (op 12/1)",
+                "horse_silk": "296732.svg"
+            }
+        ],
+        "extra_info": "4 ran Off time: 5:10:27 Winning time: 4m 17.43s (slow by 35.43s) Total SP: 109%\nNon-runners: Spanish Present (self certificate)\n1st owner: Stephen Bough (Heezer Geezer) right 1st breeder: Jean-Pierre Rault & Vincent Le Roy\n2nd owner: T G Leslie (Spectacular Genius) right\n3rd owner: Ryan Holley (Calton Hill) right\nTote win: \u00a33.25 Ex: \u00a34.40 CSF: \u00a34.32 Trifecta: \u00a311.80\nJackpot:\nPlacepot: \u00a31,378.70 to a \u00a31 stake. Pool: \u00a373,471.93 - 38.90 winning units\nQuadpot: \u00a3222.70 to a \u00a31 stake. Pool: \u00a36,190.07 - 20.56 winning units",
+        "race_info_comment": "",
+        "UUID": "f34a3c3ec96444489f46fae3ca4b5514"
+    },
+    {
+        "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805499",
+        "time": "5:00",
+        "date": "23 Feb 2022",
+        "title": "Join Racing TV Now Flat Race",
+        "course": "Punchestown (IRE)",
+        "rating": "(4yo)",
+        "distance": "2m",
+        "class": null,
+        "condition": "Soft To Heavy",
+        "prize": [
+            {
+                "1st": "\u20ac6,195"
+            },
+            {
+                "2nd": "\u20ac1,995"
+            },
+            {
+                "3rd": "\u20ac945"
+            },
+            {
+                "4th": "\u20ac420"
+            },
+            {
+                "5th": "\u20ac210"
+            },
+            {
+                "6th": "\u20ac105"
+            }
+        ],
+        "horse_rank": [
+            {
+                "horse_rank": "1",
+                "horse_draw": "",
+                "horse_length": "",
+                "horse_no": "5.",
+                "horse_name": "Imagine right",
+                "horse_country": "(FR)",
+                "horse_odd": "4/9F",
+                "horse_slik_url": "https://www.rp-assets.com/svg/5/7/2/314275.svg",
+                "horse_jockey": "Mr J J Codd",
+                "horse_trainer": "Gordon Elliott",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Held up in rear, minor headway before halfway, pressed leaders going easily on outer over 2f out, pushed along to lead over 1f out, soon went clear and kept on strongly, eased towards finish, easily",
+                "horse_silk": "314275.svg"
+            },
+            {
+                "horse_rank": "2",
+                "horse_draw": "",
+                "horse_length": "5\u00bd",
+                "horse_no": "1.",
+                "horse_name": "Aide De Camp right",
+                "horse_country": "(IRE)",
+                "horse_odd": "11/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/5/6/9/235965.svg",
+                "horse_jockey": "Mr J F O'Meara",
+                "horse_trainer": "Denis Gerard Hogan",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Held up in rear, detached when pushed along 4f out, good headway from over 2f out, keeping on and chased leaders when ridden over 1f out, ran on well towards near side and went second but no chance with winner inside final furlong (op 17/2)",
+                "horse_silk": "235965.svg"
+            },
+            {
+                "horse_rank": "3",
+                "horse_draw": "",
+                "horse_length": "2\u00be",
+                "horse_no": "2.",
+                "horse_name": "Elusive Guy right",
+                "horse_country": "(IRE)",
+                "horse_odd": "16/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/9/1/8/195819.svg",
+                "horse_jockey": "Miss A Fahey",
+                "horse_trainer": "Jarlath P Fahey",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Towards rear early, chased leaders before halfway, went second and made challenge going okay over 2f out, joined leaders when pushed along over 1f out, soon ridden and no chance with winner, lost second but kept on inside final furlong (op 12/1)",
+                "horse_silk": "195819.svg"
+            },
+            {
+                "horse_rank": "4",
+                "horse_draw": "",
+                "horse_length": "2\u00be",
+                "horse_no": "6.",
+                "horse_name": "Jaariam right",
+                "horse_country": "(FR)",
+                "horse_odd": "6/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/1/9/0/147091.svg",
+                "horse_jockey": "Mr A P Fahey",
+                "horse_trainer": "P G Fahey",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Took keen hold, soon chased leaders, disputed lead after 6f, slight lead under 4f out, ridden when joined over 1f out, soon headed and weakened, lost third inside final furlong (op 18/1 tchd 11/2)",
+                "horse_silk": "147091.svg"
+            },
+            {
+                "horse_rank": "5",
+                "horse_draw": "",
+                "horse_length": "21",
+                "horse_no": "8.",
+                "horse_name": "Worth A Look right",
+                "horse_country": "(IRE)",
+                "horse_odd": "9/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/6/8/1/301186.svg",
+                "horse_jockey": "Mr S Connor",
+                "horse_trainer": "S R B Crawford",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Held up in rear, in touch with leaders when pushed along 3f out, outpaced home turn, soon ridden, minor headway but no impression over 1f out, not pace to challenge (op 6/1)",
+                "horse_silk": "301186.svg"
+            },
+            {
+                "horse_rank": "6",
+                "horse_draw": "",
+                "horse_length": "12",
+                "horse_no": "7.",
+                "horse_name": "Manfrominverlochy right",
+                "horse_country": "(IRE)",
+                "horse_odd": "40/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/9/3/6/52639.svg",
+                "horse_jockey": "Mr N McParlan",
+                "horse_trainer": "C A McBratney",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Soon chased leader, chased leaders after 6f, pushed along from under 4f out, lost position when ridden and ran green 3f out, soon weakened, tailed off (op 22/1)",
+                "horse_silk": "52639.svg"
+            },
+            {
+                "horse_rank": "7",
+                "horse_draw": "",
+                "horse_length": "1\u00be",
+                "horse_no": "3.",
+                "horse_name": "Famous Agent right",
+                "horse_country": "(FR)",
+                "horse_odd": "20/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/8/7/5/312578.svg",
+                "horse_jockey": "Mr Finian Maguire",
+                "horse_trainer": "Miss Elizabeth Doyle",
+                "horse_age": "4",
+                "horse_or": "\u2013",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Led, joined and disputed lead after 6f, headed but prominent when pushed along under 4f out, ridden over 3f out, lost second and weakened gradually from over 2f out, tailed off (op 16/1)",
+                "horse_silk": "312578.svg"
+            }
+        ],
+        "extra_info": "7 ran Off time: 5:00:20 Winning time: 4m 19.70s (slow by 47.70s) Total SP: 115%\nNon-runners: Hurricane Muse (coughing)\n1st owner: Edelle Logan (Imagine) right 1st breeder: Xavier Leredde, Daniel Deforges\n2nd owner: Raymond Treacy (Aide De Camp) right\n3rd owner: Mrs Suzanne Fahey (Elusive Guy) right\nTote win: \u20ac1.30 PL: \u20ac1.10 \u20ac3.80 Ex: \u20ac6.40 CSF: \u20ac6.85 Trifecta: \u20ac32.10\nJackpot: not won. Pool: \u20ac887.73\nPlacepot: \u20ac24.10 to a \u20ac1 stake. Pool: @?24,944.17 - 722.62 winning units\nQuadpot:",
+        "race_info_comment": "",
+        "UUID": "370ee174684d41378d25a00f3cfb18a9"
+    },
+    {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803233",
         "time": "4:45",
         "date": "23 Feb 2022",
@@ -27,12 +672,6 @@
             },
             {
                 "6th": "\u00a3350"
-            },
-            {
-                "7th": "\u00a3350"
-            },
-            {
-                "8th": "\u00a3350"
             }
         ],
         "horse_rank": [
@@ -52,7 +691,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 18/1)",
+                "horse_comment": "Held up in rear, headway and in touch with leaders 5 out, soon pushed along, jumped right 4 out, pressed leaders 3 out, mistake and ridden 2 out, challenging last, led run-in, ran on (op 18/1)",
                 "horse_silk": "34642.svg"
             },
             {
@@ -71,7 +710,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 14/1)",
+                "horse_comment": "Chased leaders, blundered 3rd, went second 4 out, led 3 out, ridden 2 out, faced challenge last, hung right and headed run-in, no extra towards finish (op 14/1)",
                 "horse_silk": "283848.svg"
             },
             {
@@ -90,7 +729,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 4/1)",
+                "horse_comment": "Midfield, jumped left and bumped rival 1st, lost position 6th, headway 5 out, soon tracked leaders, ridden 3 out, lost third 2 out, soon weakened, went third final strides (op 4/1)",
                 "horse_silk": "260711b.svg"
             },
             {
@@ -109,7 +748,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 15/8 tchd 11/4)",
+                "horse_comment": "Prominent, led after 5 out, ridden 4 out, headed 3 out, lost second approaching last, weakened run-in (vet said gelding lost his left-fore and left-hind shoe) (op 15/8 tchd 11/4)",
                 "horse_silk": "284922b.svg"
             },
             {
@@ -128,7 +767,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 40/1)",
+                "horse_comment": "Tracked leader, disputed lead 7th, ridden and lost second 4 out, weakened before 2 out (op 40/1)",
                 "horse_silk": "146879.svg"
             },
             {
@@ -147,30 +786,11 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 18/1 tchd 16/1)",
+                "horse_comment": "Always towards rear, mistake 7th (op 18/1 tchd 16/1)",
                 "horse_silk": "262686.svg"
             },
             {
-                "horse_rank": "0",
-                "horse_draw": "",
-                "horse_length": "",
-                "horse_no": "6.",
-                "horse_name": "Ingeborg Zilling right",
-                "horse_country": "(IRE)",
-                "horse_odd": "16/1",
-                "horse_slik_url": "https://www.rp-assets.com/svg/b/8/0/301308b.svg",
-                "horse_jockey": "Sean Houlihan",
-                "horse_trainer": "Sheila Lewis",
-                "horse_age": "6",
-                "horse_or": "82",
-                "horse_ts": "\u2013",
-                "horse_rpr": "\u2013",
-                "horse_mr": "\u2013",
-                "horse_comment": "",
-                "horse_silk": "301308b.svg"
-            },
-            {
-                "horse_rank": "0",
+                "horse_rank": "PU",
                 "horse_draw": "",
                 "horse_length": "",
                 "horse_no": "1.",
@@ -185,11 +805,30 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 4/1)",
+                "horse_comment": "Towards rear, headway and in touch with leaders 6th, mistake 8th, lost position 5 out, well behind when pulled up before 3 out (jockey said mare stopped quickly) (op 4/1)",
                 "horse_silk": "298647.svg"
             },
             {
-                "horse_rank": "0",
+                "horse_rank": "PU",
+                "horse_draw": "",
+                "horse_length": "",
+                "horse_no": "6.",
+                "horse_name": "Ingeborg Zilling right",
+                "horse_country": "(IRE)",
+                "horse_odd": "16/1",
+                "horse_slik_url": "https://www.rp-assets.com/svg/b/8/0/301308b.svg",
+                "horse_jockey": "Sean Houlihan",
+                "horse_trainer": "Sheila Lewis",
+                "horse_age": "6",
+                "horse_or": "82",
+                "horse_ts": "\u2013",
+                "horse_rpr": "\u2013",
+                "horse_mr": "\u2013",
+                "horse_comment": "Midfield, jumped right and bumped rival 1st, chased leaders 4th, lost position and pushed along 8th, mistake 5 out, soon lost touch, well behind when pulled up before 3 out",
+                "horse_silk": "301308b.svg"
+            },
+            {
+                "horse_rank": "PU",
                 "horse_draw": "",
                 "horse_length": "",
                 "horse_no": "2.",
@@ -204,13 +843,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 5/1 tchd 11/2)",
+                "horse_comment": "Led, joined 7th, headed and lost position after 5 out, soon weakened, pulled up just before 4 out (jockey said gelding stopped quickly) (op 5/1 tchd 11/2)",
                 "horse_silk": "119022b.svg"
             }
         ],
-        "extra_info": "",
-        "race_info_comment": null,
-        "UUID": "b58aa6640aa3486da26f1043af946738"
+        "extra_info": "9 ran Off time: 4:45:30 Winning time: 4m 11.12s (slow by 21.12s) Total SP: 119%\n1st owner: Sue Howell (Duneomeno) right 1st breeder: Andreas Brunnert & Ruth Brunnert\n2nd owner: Christopher John Sprake (Letsbe Avenue) right\n3rd owner: Mrs J Williams & R Stark (Folly Gate) right\nTote win: \u00a310 PL: \u00a33 \u00a32.50 \u00a31.50 Ex: \u00a388.70 CSF: \u00a3100.62 Tricast: \u00a3509.70 Trifecta: \u00a3759.70",
+        "race_info_comment": "",
+        "UUID": "6decf1c4be564aefb9d2294e39b00004"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803226",
@@ -224,16 +863,13 @@
         "condition": "Soft",
         "prize": [
             {
-                "1st": "\u00a32,053.20"
+                "1st": "\u00a32,138.80"
             },
             {
-                "2nd": "\u00a31,026.80"
+                "2nd": "\u00a31,112.40"
             },
             {
-                "3rd": "\u00a3513.20"
-            },
-            {
-                "4th": "\u00a3256.80"
+                "3rd": "\u00a3598.80"
             }
         ],
         "horse_rank": [
@@ -310,7 +946,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In rear, not fluent 7th, headway after 13th, not fluent 15th, soon pushed along, got behind before 16th, tailed off and pulled up home straight (op 7/1)",
+                "horse_comment": "In rear, not fluent 7th, headway after 13th, not fluent 15th, pushed along and got behind before 16th, tailed off and pulled up home straight (op 7/1)",
                 "horse_silk": "37987.svg"
             },
             {
@@ -329,13 +965,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Chased leader, mistake 7th, niggled along and lost position 10th, pushed along and lost ground before 13th, dropped to last before 14th, behind when pulled up after 15th (tchd 9/1)",
+                "horse_comment": "Chased leader, mistake 7th, niggled along and lost position 10th, pushed along and dropped to last before 14th, behind when pulled up after 15th (tchd 9/1)",
                 "horse_silk": "82756.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 4:35:15 Winning time: 6m 48.75s (slow by 22.75s) Total SP: 109%\nNon-runners: Jett (unsuitable ground)\n1st owner: David Maxwell (Dolphin Square) right 1st breeder: Mrs Evelyn Sheridan\n2nd owner: N R W Wright (Desire De Joie) right\n3rd owner: Mrs Emma Palmer (Le Breuil) right\nTote win: \u00a31.67 PL: \u00a31.10 \u00a34.40 Ex: \u00a37.90 CSF: \u00a311.47 Trifecta: \u00a320.90",
         "race_info_comment": "",
-        "UUID": "e4d90f3eea4141c0bb21d262bcef7261"
+        "UUID": "6252022bafe746afa897ae4a31fba489"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805619",
@@ -384,7 +1020,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Chased leaders",
+                "horse_comment": "Chased leaders, headway on inner 2 out, soon challenging going okay, joined leader when left in lead and slightly hampered last, ridden out and kept on well run-in",
                 "horse_silk": "280604.svg"
             },
             {
@@ -403,7 +1039,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Towards rear, not fluent and hampered by faller 1st, not fluent 2nd (op 11/2)",
+                "horse_comment": "Towards rear, not fluent and hampered by faller 1st, not fluent 2nd, headway before 3 out, chased leaders on outer when not fluent and pushed along 2 out, keeping on when ridden before last, left in second and hampered by faller last, no match for winner (op 11/2)",
                 "horse_silk": "254092.svg"
             },
             {
@@ -422,7 +1058,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Prominent, chased leaders before 2nd, not fluent 3rd (op 4/1)",
+                "horse_comment": "Prominent, chased leaders before 2nd, not fluent 3rd, close up going okay on outer after 2 out, ridden and outpaced before last, left in third when hampered by faller last, kept on, no match for first two (op 4/1)",
                 "horse_silk": "112292c.svg"
             },
             {
@@ -441,7 +1077,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Midfield (op 11/2)",
+                "horse_comment": "Midfield, headway when mistake 2 out, soon ridden, no impression before last, went modest fourth and slightly hampered after last, kept on (op 11/2)",
                 "horse_silk": "301104.svg"
             },
             {
@@ -460,7 +1096,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Midfield, slightly hampered 1st",
+                "horse_comment": "Midfield, slightly hampered 1st, headway and chased leaders before 3 out, pushed along when mistake 2 out, ridden after 2 out, soon no impression, switched right after last, kept on",
                 "horse_silk": "235968.svg"
             },
             {
@@ -479,7 +1115,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Towards rear early, headway into midfield after 2nd, went second after 3rd, lost second when jumped slightly right 6th",
+                "horse_comment": "Towards rear early, headway into midfield after 2nd, went second after 3rd, lost second when jumped slightly right 6th, went second again before 2 out, pressed leaders when ridden after 2 out, weakened before last, hampered by faller last",
                 "horse_silk": "174664.svg"
             },
             {
@@ -498,7 +1134,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 33/1)",
+                "horse_comment": "Towards rear, headway into midfield when not fluent and pushed along 2 out, ridden and no impression before last, kept on (op 33/1)",
                 "horse_silk": "232444.svg"
             },
             {
@@ -517,7 +1153,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Chased leaders, disputed lead before 2nd, chased leaders after 3rd, went second when jumped slightly right 6th (op 17/2)",
+                "horse_comment": "Chased leaders, disputed lead before 2nd, lost second but close up after 3rd, went second again when jumped slightly right 6th, lost position when pushed along before 2 out, ridden and weakened after 2 out, hampered by faller last (op 17/2)",
                 "horse_silk": "182828.svg"
             },
             {
@@ -536,7 +1172,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Held up in rear, minor headway when pushed along 2 out, soon ridden and no extra",
                 "horse_silk": "329.svg"
             },
             {
@@ -551,11 +1187,11 @@
                 "horse_jockey": "Mr N Gault",
                 "horse_trainer": "S Michael Millar",
                 "horse_age": "9",
-                "horse_or": "81",
+                "horse_or": "83",
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 80/1)",
+                "horse_comment": "Midfield, hampered 1st, lost position when mistake and pushed along briefly 4 out, ridden and no impression before 2 out, soon weakened (op 80/1)",
                 "horse_silk": "248418.svg"
             },
             {
@@ -574,7 +1210,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 12/1)",
+                "horse_comment": "Chased leaders, lost position when ridden and weakened 2 out (op 12/1)",
                 "horse_silk": "41281.svg"
             },
             {
@@ -593,7 +1229,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Pressed leaders early, midfield 5th, lost position when ridden and weakened after 2 out, tailed off",
                 "horse_silk": "116354.svg"
             },
             {
@@ -612,7 +1248,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 33/1)",
+                "horse_comment": "Soon midfield, dropped to rear when pushed along and no extra before 2 out, soon weakened, tailed off (op 33/1)",
                 "horse_silk": "156944b.svg"
             },
             {
@@ -631,7 +1267,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 28/1)",
+                "horse_comment": "Pushed along briefly soon after start, midfield early, lost position when not fluent 4th, soon dropped to rear, pushed along after 3 out, weakened after 2 out, tailed off (op 28/1)",
                 "horse_silk": "20887h.svg"
             },
             {
@@ -650,7 +1286,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 12/1)",
+                "horse_comment": "Led narrowly, disputed lead before 2nd, led clearly after 3rd, ridden and faced challenge after 2 out, joined when fell last (op 12/1)",
                 "horse_silk": "28524.svg"
             },
             {
@@ -669,13 +1305,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Soon chased leaders, jumped right and unseated rider 1st",
                 "horse_silk": "94208.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "16 ran Off time: 4:25:15 Winning time: 5m 45.70s Total SP: 131%\nNon-runners: Der Mc (reserve), Oisin James (reserve), We'llhavewan (reserve)\n1st owner: Paula Widger (Indie Belle) right 1st breeder: Mr W T Murphy\n2nd owner: James McAuley (Wild Hunt) right\n3rd owner: Patrick P Kennedy (Mise Raftaire) right\nTote win: \u20ac12.30 PL: \u20ac2.20 \u20ac2.80 \u20ac1.30 Ex: \u20ac189.20 CSF: \u20ac82.15 Tricast: \u20ac307.26 Trifecta: \u20ac639.90",
         "race_info_comment": "",
-        "UUID": "ac8ac251bf5a4e68ad1159da8020c4a7"
+        "UUID": "2e2aa086efe44ea78a774dd6439491e0"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803370",
@@ -794,7 +1430,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Raced freely, tracked leader, pushed along under 2f out, ridden over 1f out, weakened inside final furlong (op 10/3)",
+                "horse_comment": "Raced freely, tracked leader, pushed along under 2f out, ridden over 1f out, weakened inside final furlong (jockey said gelding ran too free) (op 10/3)",
                 "horse_silk": "307183.svg"
             },
             {
@@ -813,7 +1449,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Slowly away, took keen hold, towards rear, pushed along and some headway when hampered inside final furlong (op 50/1)",
+                "horse_comment": "Slowly away, took keen hold, towards rear, pushed along and some headway when hampered inside final furlong (jockey said gelding suffered interference inside the final furlong) (op 50/1)",
                 "horse_silk": "16788.svg"
             },
             {
@@ -832,7 +1468,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Midfield, pushed along over 2f out, no impression when hampered inside final furlong, soon hung right and weakened (op 10/1)",
+                "horse_comment": "Midfield, pushed along over 2f out, no impression when hampered inside final furlong, soon hung right and weakened (jockey said gelding hung right in the final 110yds) (op 10/1)",
                 "horse_silk": "301673.svg"
             },
             {
@@ -855,9 +1491,9 @@
                 "horse_silk": "314274.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "8 ran Off time: 4:24:22 Winning time: 1m 34.85s (slow by 11.35s) Total SP: 118%\n1st owner: Noel O'Callaghan (Anthem National) right 1st breeder: Mountarmstrong Stud\n2nd owner: Saeed H Al Tayer (Show Maker) right\n3rd owner: Paul Turner (Rose's Girl) right\nTote win: \u00a31.84 PL: \u00a31.10 \u00a32.40 \u00a35.70 Ex: \u00a310.50 CSF: \u00a312.43 Trifecta: \u00a3114.80\nJackpot:\nPlacepot: \u00a331.00 to a \u00a31 stake. Pool: \u00a362,106.98 - 154.38 winning units\nQuadpot: \u00a327.50 to a \u00a31 stake. Pool: \u00a35,737.75 - winning units",
         "race_info_comment": "",
-        "UUID": "ba1a8679b243462fbfa965d2327c1ef8"
+        "UUID": "b124ec9ab31f4b91bc55917feee8ee13"
     },
     {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803230",
@@ -1100,9 +1736,9 @@
                 "horse_silk": "174977.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "11 ran Off time: 4:11:13 Winning time: 5m 17.30s (slow by 24.30s) Total SP: 118%\nNon-runners: Happy And Fine (self certificate), Neon Moon (self certificate)\n1st owner: Mrs Gay Smith (Judicial Law) right 1st breeder: Michael Tobin\n2nd owner: Sue Howell (Groom D'Oudairies) right\n3rd owner: Arnold, Lukas, Leitao And Wrigley (Lounge Lizard) right\nTote win: \u00a311 PL: \u00a33.20 \u00a39.50 \u00a31.50 Ex: \u00a3434.30 CSF: \u00a3379.52 Tricast: \u00a32,013.75 Trifecta: \u00a32,672.60",
         "race_info_comment": "",
-        "UUID": "51f7002e0c8647eb82e4c4b9a4bd74d7"
+        "UUID": "5e4ff8871aab4763a8f364c77b9b1a39"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803222",
@@ -1250,9 +1886,9 @@
                 "horse_silk": "190791.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "6 ran Off time: 4:00:46 Winning time: 6m 19.93s (slow by 33.93s) Total SP: 113%\n1st owner: The Acre Bottom Syndicate (Silva Eclipse) right 1st breeder: R F Broad\n2nd owner: Masomo (Boss Man Fred) right\n3rd owner: Drew & Ailsa Russell (Half Track) right\nTote win: \u00a320.10 PL: \u00a35.50 \u00a31.60 Ex: \u00a366.50 CSF: \u00a357.08 Trifecta: \u00a3201.90",
         "race_info_comment": "",
-        "UUID": "c8787f464e2947fdb09a3051af4e4673"
+        "UUID": "036136d66f094ee8953f8582d6f1fb12"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805498",
@@ -1301,7 +1937,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 12/1)",
+                "horse_comment": "Held up in rear, headway after 3 out, went second home turn, challenging when mistake last, ridden and led run-in, kept on (op 12/1)",
                 "horse_silk": "302108.svg"
             },
             {
@@ -1320,7 +1956,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 28/1)",
+                "horse_comment": "Chased leaders, reminder after 6th, went second before 3 out, led 2 out, ridden and faced challenge last, headed and no extra run-in (op 28/1)",
                 "horse_silk": "307650.svg"
             },
             {
@@ -1339,7 +1975,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 11/2)",
+                "horse_comment": "Midfield, slow jump and dropped to rear 1st, headway 7th, chased leaders before 3 out, briefly went second after 2 out, ridden and outpaced approaching last, kept on run-in (op 11/2)",
                 "horse_silk": "20887h.svg"
             },
             {
@@ -1358,7 +1994,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 14/1)",
+                "horse_comment": "Midfield, pushed along after 2 out, ridden and went fourth approaching last, no impression and well held run-in (op 14/1)",
                 "horse_silk": "21838.svg"
             },
             {
@@ -1377,7 +2013,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 22/1)",
+                "horse_comment": "Chased leaders, ridden and lost position before 2 out, rallied approaching last, well held but kept on run-in (op 22/1)",
                 "horse_silk": "235968.svg"
             },
             {
@@ -1396,7 +2032,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 3/1)",
+                "horse_comment": "Held up in rear, headway after 3 out, ridden and disputing fourth home turn, soon weakened (op 3/1)",
                 "horse_silk": "208007.svg"
             },
             {
@@ -1415,7 +2051,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 11/1)",
+                "horse_comment": "Held up in rear, headway before 2 out, ridden and no impression after 2 out, well held home straight (op 11/1)",
                 "horse_silk": "100181.svg"
             },
             {
@@ -1434,7 +2070,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 10/1)",
+                "horse_comment": "Towards rear, pushed along and minor headway before 2 out, ridden and weakened approaching last (op 10/1)",
                 "horse_silk": "272519.svg"
             },
             {
@@ -1453,7 +2089,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 18/1)",
+                "horse_comment": "Led, headed and ridden 2 out, lost position and beaten home turn, weakened last (op 18/1)",
                 "horse_silk": "219030.svg"
             },
             {
@@ -1472,7 +2108,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 8/1)",
+                "horse_comment": "Towards rear of midfield, headway 7th, ridden and struggling 2 out, weakened approaching last (op 8/1)",
                 "horse_silk": "302638.svg"
             },
             {
@@ -1491,7 +2127,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(tchd 18/1)",
+                "horse_comment": "Midfield, ridden before 2 out, lost position and dropped to rear home straight (tchd 18/1)",
                 "horse_silk": "126558b.svg"
             },
             {
@@ -1510,7 +2146,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Took keen hold, chased leader, ridden and lost second before 3 out, lost ground quickly and well behind 2 out, pulled up approaching last",
                 "horse_silk": "53269.svg"
             },
             {
@@ -1529,7 +2165,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Chased leaders, ridden and lost position before 3 out, soon dropped to rear, well behind when pulled up 2 out",
                 "horse_silk": "55832.svg"
             },
             {
@@ -1548,7 +2184,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "(op 7/2)",
+                "horse_comment": "Chased leaders, lost position 3 out, behind when pulled up after 2 out (op 7/2)",
                 "horse_silk": "301190.svg"
             },
             {
@@ -1567,13 +2203,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "",
+                "horse_comment": "Prominent in chasing group, chased leaders 6th, lost ground quickly before 3 out, well behind when pulled up before last",
                 "horse_silk": "299967.svg"
             }
         ],
-        "extra_info": "",
-        "race_info_comment": null,
-        "UUID": "431a015e79fa4683bacf1fb613e034ff"
+        "extra_info": "15 ran Off time: 3:50:06 Winning time: 5m 38.80s Total SP: 128%\nNon-runners: Cher Why Not (reserve), Harry Do Brasil (coughing), My Wings (lame), Trip To Milan (reserve)\n1st owner: Kenneth James Mullen & Mrs A O'Connell (The Niffler) right 1st breeder: Mr Eamonn O'Connell\n2nd owner: B Racing Syndicate (Command Chain) right\n3rd owner: John P McManus (Fox Le Bel) right\nTote win: \u20ac14.60 PL: \u20ac4.20 \u20ac10.60 \u20ac2 Ex: \u20ac436.30 CSF: \u20ac263.59 Tricast: \u20ac1,569.95",
+        "race_info_comment": "",
+        "UUID": "d98c294ace1d4cc5b8cb6c3cb5fa6a5d"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803366",
@@ -1696,9 +2332,9 @@
                 "horse_silk": "293235.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 3:46:01 Winning time: 1m 31.40s (slow by 7.90s) Total SP: 111%\n1st owner: SBZ Corporation Limited (Internationalangel) right 1st breeder: J Hanly, A Stroud & Castlemartin Sky\n2nd owner: The Horse Watchers 4 (Whittle Le Woods) right\n3rd owner: Titanium Racing Club (Astro Jakk) right\nTote win: \u00a35 PL: \u00a31.70 \u00a31.20 Ex: \u00a39.90 CSF: \u00a39.52 Trifecta: \u00a342",
         "race_info_comment": "",
-        "UUID": "5f67701c0eab4336ad434a9d4e8b1b3e"
+        "UUID": "b5ceaaf6ae004be3b0945ce5c3f61333"
     },
     {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803227",
@@ -1772,7 +2408,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Chased leaders, not fluent 2nd, lost position 14th, pushed along 4 out, jumped left 3 out, went fourth and 7 lengths down last, ridden and stayed on run-in, went second towards finish (op 4/1)",
+                "horse_comment": "Chased leaders, not fluent 2nd (water), lost position 14th, pushed along 4 out, jumped left 3 out, went fourth and 7 lengths down last, ridden and stayed on run-in, went second towards finish (op 4/1)",
                 "horse_silk": "293535.svg"
             },
             {
@@ -1905,13 +2541,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In rear, mistake 5th, lost touch with one circuit to go, tailed off (op 40/1 tchd 80/1)",
+                "horse_comment": "In rear, hampered on turn after 2nd, mistake 5th, lost touch with one circuit to go, tailed off (op 40/1 tchd 80/1)",
                 "horse_silk": "120524.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "9 ran Off time: 3:35:31 Winning time: 6m 17.90s (slow by 24.90s) Total SP: 116%\nNon-runners: Road To Rome (not qualified)\n1st owner: J Perriss (Bobhopeornohope) right 1st breeder: Paul Giles\n2nd owner: Mrs Simon Clarke (Jimmy The Digger) right\n3rd owner: Delancey & Mrs Jonjo O'Neill (Kilbrook) right\nTote win: \u00a35 PL: \u00a31.60 \u00a32 \u00a32.50 Ex: \u00a323.40 CSF: \u00a323.08 Tricast: \u00a3152.56 Trifecta: \u00a3166.60",
         "race_info_comment": "",
-        "UUID": "7eeafda143294d00b69a0ade7aaaf3d4"
+        "UUID": "ef0bc08edc3b46c7b7c6218d5b715232"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803220",
@@ -1957,7 +2593,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Held up in behind leaders, headway after 11th, going okay when close up 15th, shaken up and joined leader 2 out, soon led, pushed along and hung left after last, kept on and always doing enough (op 6/1)",
+                "horse_comment": "Held up in behind leaders, headway after 11th, going okay when close up 15th, shaken up and joined leader 2 out, soon led, pushed along and hung left after last, kept on and always doing enough (trainer's rep said, regarding the improved form shown, gelding was suited by a return to a sounder surface having raced on heavy at Haydock which, in the trainer's opinion, was particularly testing) (op 6/1)",
                 "horse_silk": "285608.svg"
             },
             {
@@ -2033,13 +2669,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Disputed lead, close up from 2nd, lost position after 8th, pushed along and got behind before 15th, no chance from 3 out (op 10/11)",
+                "horse_comment": "Disputed lead, close up from 2nd, lost position after 8th, pushed along and got behind before 15th, no chance from 3 out, burst blood vessel (op 10/11)",
                 "horse_silk": "145924.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 3:25:21 Winning time: 6m 9.66s (slow by 15.66s) Total SP: 109%\nNon-runners: Dingo Dollar (unsuitable ground)\n1st owner: Jean Matterson & J Douglas Miller (Up Helly Aa King) right 1st breeder: P Storey\n2nd owner: Exors Of The Late Trevor Hemmings (Vintage Clouds) right\n3rd owner: John P McManus (Chirico Vallis) right\nTote win: \u00a36.50 PL: \u00a32.20 \u00a34 Ex: \u00a351.20 CSF: \u00a352.45 Trifecta: \u00a3166.80",
         "race_info_comment": "",
-        "UUID": "9c308b6fbaf241e18d6747e7dcfe70bf"
+        "UUID": "50adc1685a7b4ab39777b997472b20df"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805497",
@@ -2377,9 +3013,9 @@
                 "horse_silk": "256066.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "16 ran Off time: 3:16:33 Winning time: 6m 6.30s (slow by 51.80s) Total SP: 130%\nNon-runners: Cottage Artist (reserve), Katlaur (ran yesterday), What An Ocean (reserve)\n1st owner: Mrs Sonja Buckley & Mrs Anne Coffey (Martha Divine) right 1st breeder: D & N Leggate, R Kent & I Henderson\n2nd owner: S Kennedy (Emily Roebling) right\n3rd owner: Alfred Sweetnam (Angels Dawn) right\nTote win: \u20ac47.70 PL: \u20ac7.40 \u20ac1.90 \u20ac1.10 Ex: \u20ac304.30 CSF: \u20ac165.82 Trifecta: \u20ac1,977.70",
         "race_info_comment": "",
-        "UUID": "75d9961a66294178995fb707909cb28e"
+        "UUID": "3f73543d71a74b4e8b4749cb26ae0fbc"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803367",
@@ -2502,9 +3138,9 @@
                 "horse_silk": "119300.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 3:11:19 Winning time: 1m 1.22s (slow by 3.62s) Total SP: 110%\nNon-runners: Strong Power (vet's certificate)\n1st owner: Whitestonecliffe Racing Partnership (Be Proud) right 1st breeder: John Lyons\n2nd owner: Nic Brereton (Nigel Nott) right\n3rd owner: V Watt, G Howard & J Jenkinson (Look Out Louis) right\nTote win: \u00a34.50 PL: \u00a32 \u00a33.40 Ex: \u00a327.60 CSF: \u00a336.45 Trifecta: \u00a365.40",
         "race_info_comment": "",
-        "UUID": "ec192292d64e49fb850f241277909406"
+        "UUID": "bd110f8c38514bc593af626470dcfa27"
     },
     {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803229",
@@ -2690,9 +3326,9 @@
                 "horse_silk": "273944.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "8 ran Off time: 3:01:03 Winning time: 3m 52.50s (slow by 19.50s) Total SP: 117%\nNon-runners: Black Poppy (unsuitable ground)\n1st owner: P J Andrews (Mr Grey Sky) right 1st breeder: Minch Bloodstock\n2nd owner: The Four Bosses (A Distant Place) right\n3rd owner: Highclere Thoroughbred Racing - Cool (Coolnaugh Haze) right\nTote win: \u00a32.38 PL: \u00a31.10 \u00a31.60 \u00a31.40 Ex: \u00a39.20 CSF: \u00a39.11 Tricast: \u00a318.05 Trifecta: \u00a325.10",
         "race_info_comment": "",
-        "UUID": "7229f796bb964e13bd996cd08d133436"
+        "UUID": "f3183f8059954a0f903a863170ee7d6c"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805612",
@@ -2932,9 +3568,9 @@
                 "horse_silk": "245927.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "11 ran Winning time: 1m 8.92s (fast by 0.78s) Total SP: 122%\nNon-runners: Classic Unicorn, Highly Proactive, Hong Kong Win\n1st owner: Surplus Horse Racing Syndicate (Majestic Star) right 1st breeder: Saconi Thoroughbreds\n2nd owner: Barrier Free Syndicate (Keep You Warm) right\n3rd owner: Herman Wai Ho Man (Duke Wai) right\n",
         "race_info_comment": null,
-        "UUID": "6add916391304c1d901fa6229a4a7f47"
+        "UUID": "c8a97e8537d6476bb847f9cda1b96498"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803221",
@@ -3016,9 +3652,9 @@
                 "horse_silk": "217175.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "3 ran Off time: 2:50:14 Winning time: 6m 15.98s (slow by 21.98s) Total SP: 107%\n1st owner: Bradley Partnership (Castle Robin) right 1st breeder: R Lynch\n2nd owner: R M Howard (Geryville) right\n3rd owner: Lynne & Angus Maclennan (Lord Accord) right\nTote win: \u00a32.25 Ex: \u00a34.90 CSF: \u00a35.03 Trifecta: \u00a310.20",
         "race_info_comment": "",
-        "UUID": "eb3d880261d34d98a663a64086ef28af"
+        "UUID": "85007dcb65af431eb23b0a1484d94db3"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805496",
@@ -3223,9 +3859,9 @@
                 "horse_silk": "18265b.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "9 ran Off time: 2:40:06 Winning time: 6m 41.80s Total SP: 121%\n1st owner: Barry Connell (My Immortal) right 1st breeder: John & Rosemary Hutch\n2nd owner: Ronald Lilley (Portstorm) right\n3rd owner: Liam Mulryan (Young Dev) right\nTote win: \u20ac5.60 PL: \u20ac1.70 \u20ac4.30 \u20ac1.70 Ex: \u20ac100.90 CSF: \u20ac69.42 Tricast: \u20ac237.98 Trifecta: \u20ac610.70",
         "race_info_comment": "",
-        "UUID": "c6fd64a676ae4b27af16fc956e1e0bc5"
+        "UUID": "101e455bf68c49f9936d8c15c45ad9e7"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803368",
@@ -3307,9 +3943,9 @@
                 "horse_silk": "304671.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "3 ran Off time: 2:36:16 Winning time: 1m 16.79s (slow by 6.59s) Total SP: 105%\n1st owner: Grange Park Racing XVIII & OfO Partners (El Caballo) right 1st breeder: Whitsbury Manor Stud\n2nd owner: Cheveley Park Stud (Canonized) right\n3rd owner: Nick Bradley Racing 48 (Hellomydarlin) right\nTote win: \u00a31.80 Ex: \u00a33.80 CSF: \u00a34.60 Trifecta: \u00a33.50",
         "race_info_comment": "",
-        "UUID": "b418f7abc1ee4a68a5a08e3337dcbad1"
+        "UUID": "badb1a53ea8242738e49f0165575f44e"
     },
     {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803228",
@@ -3374,7 +4010,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Jumped slightly left, led, not fluent 3rd, mistake and headed 10th, ridden 4 out, every chance 3 out, 4 lengths down and held last, kept on run-in (op 6/4)",
+                "horse_comment": "Jumped slightly left, led, not fluent 3rd, mistake and headed 10th, ridden 4 out, every chance 3 out, 4 lengths down and held last, kept on run-in (vet said mare lost her right-fore shoe) (op 6/4)",
                 "horse_silk": "270290.svg"
             },
             {
@@ -3435,9 +4071,9 @@
                 "horse_silk": "301308b.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 2:26:27 Winning time: 5m 14.60s (slow by 22.60s) Total SP: 110%\n1st owner: Sir Christopher & Lady Wates (Little River Bay) right 1st breeder: Sir Christopher Stephen Wates\n2nd owner: Axom Lxxvi (Deja Vue) right\n3rd owner: Culverhill Racing Club II (Galice Macalo) right\nTote win: \u00a33.25 PL: \u00a31.20 \u00a31.20 Ex: \u00a34.90 CSF: \u00a35.37 Trifecta: \u00a38",
         "race_info_comment": "",
-        "UUID": "ee74b0e271a847cab4422716ccf409ca"
+        "UUID": "b398dbd10f4943db85ef3fe060eb6016"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803223",
@@ -3541,9 +4177,9 @@
                 "horse_silk": "208985.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "4 ran Off time: 2:15:21 Winning time: 4m 58.57s (slow by 26.57s) Total SP: 107%\n1st owner: Neil Goulden, Kevin & Sue Hopgood (Super Survivor) right 1st breeder: M Sheehy\n2nd owner: J Hales (Message Personnel) right\n3rd owner: Ms J A Wakefield (Mucho Mas) right\nTote win: \u00a35 Ex: \u00a37.90 CSF: \u00a38.20 Trifecta: \u00a313.10",
         "race_info_comment": "",
-        "UUID": "142cac5fa34e45dfb0bfecd01c3d88cc"
+        "UUID": "adfd07b337b64c0ca9530e6c4c37e95c"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805611",
@@ -3802,9 +4438,9 @@
                 "horse_silk": "271595.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 1m 38.92s (slow by 0.92s) Total SP: 124%\n1st owner: Tom Brown's Syndicate (Cheerful Days) right 1st breeder: Yarraman Park Stud Pty Ltd\n2nd owner: Telecom Brothers Syndicate (Telecom Fighters) right\n3rd owner: Eleanor Kwok Law Kwai Chun & Patrick Kwok Ho Chuen (Beauty Joy) right\n",
         "race_info_comment": null,
-        "UUID": "d978585985444c4d8cddef9b21400046"
+        "UUID": "d455ba3f70e74051ae31738292f04ceb"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805494",
@@ -4085,9 +4721,9 @@
                 "horse_silk": "277432.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "13 ran Off time: 2:06:44 Winning time: 5m 35.00s Total SP: 131%\nNon-runners: Ger Mac (ran yesterday)\n1st owner: Mrs J Donnelly (Ramillies) right 1st breeder: M Morgan\n2nd owner: John F Doyle & J B Golden & R Hogan & Mrs Caren Walsh (The Waltzer) right\n3rd owner: Owen Curtin (Broken Bond) right\nTote win: \u20ac1.40 PL: \u20ac1.02 \u20ac1.30 \u20ac1.90 Ex: \u20ac2.90 CSF: \u20ac2.64 Trifecta: \u20ac9.30",
         "race_info_comment": "",
-        "UUID": "50052436d09448eabf231bc07dade32a"
+        "UUID": "281212beb92c499aa874d57bc6e31d1a"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803369",
@@ -4263,13 +4899,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Led, pushed along and headed over 3f out, soon weakened",
+                "horse_comment": "Led, pushed along and headed over 3f out, soon weakened (jockey said gelding weakened quickly in the final 2f)",
                 "horse_silk": "159465b.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "8 ran Off time: 2:02:47 Winning time: 2m 12.77s (slow by 6.47s) Total SP: 118%\n1st owner: Sheikh Rashid Dalmook Al Maktoum (Figures) right 1st breeder: The Gadfly Partnership\n2nd owner: S Gale And Partner (Tiger Jet) right\n3rd owner: Merry Fox Stud Limited (Greek Flame) right\nTote win: \u00a32 PL: \u00a31.10 \u00a33.50 \u00a31.10 Ex: \u00a321.70 CSF: \u00a335.93 Trifecta: \u00a347.10",
         "race_info_comment": "",
-        "UUID": "2d367ccf5005494297172413f88042f0"
+        "UUID": "85b33b8ffcc347d885355aad8255b34c"
     },
     {
         "url": "https://www.racingpost.com/results/34/ludlow/2022-02-23/803232",
@@ -4559,7 +5195,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Always towards rear, lost touch 4 out, tailed off",
+                "horse_comment": "Always towards rear, lost touch 4 out, tailed off, finished lame (vet said mare finished lame on her right-fore)",
                 "horse_silk": "31997.svg"
             },
             {
@@ -4582,9 +5218,9 @@
                 "horse_silk": "123331b.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "15 ran Off time: 1:50:37 Winning time: 3m 54.90s (slow by 21.90s) Total SP: 125%\nNon-runners: Jeremy The Jinn (self certificate)\n1st owner: Mason And McGoff (Lord Of Cheshire) right 1st breeder: Jean-Charles Haimet & Francis Picoulet\n2nd owner: Alan Peterson (Mister Marbles) right\n3rd owner: Miss C Lees-Jones (Red Vision) right\nTote win: \u00a32.20 PL: \u00a31.20 \u00a31.20 \u00a33.40 Ex: \u00a35.60 CSF: \u00a33.87 Trifecta: \u00a334.80",
         "race_info_comment": "The third-last flight was bypassed; damaged",
-        "UUID": "ec2cd238b3414eb0bf00efc41b811e61"
+        "UUID": "f85fb989904d473e9e7032b3ae80a45a"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805610",
@@ -4706,7 +5342,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield, switched inside and ridden along 1f out, kept on, not trouble leaders",
+                "horse_comment": "Midfield, switched inside and ridden along 1f out, kept on, not trouble leaders",
                 "horse_silk": "257359.svg"
             },
             {
@@ -4725,7 +5361,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield, driven along over 2f out, ridden along 1 1/2f out, kept on, never threatened",
+                "horse_comment": "Midfield, driven along over 2f out, ridden along 1 1/2f out, kept on, never threatened",
                 "horse_silk": "313648.svg"
             },
             {
@@ -4843,9 +5479,9 @@
                 "horse_silk": "291189.svg"
             }
         ],
-        "extra_info": "",
-        "race_info_comment": "",
-        "UUID": "6790db281d0a4c88831626c74e6eade3"
+        "extra_info": "12 ran Winning time: 1m 9.30s (fast by 0.40s) Total SP: 124%\nNon-runners: High Rise Soldier\n1st owner: Johnny Shih Jar Yi (Armour Eagle) right 1st breeder: Rushton Park\n2nd owner: Lee Fung Tai & Virginia Lee Yuen Man (Rewarding Together) right\n3rd owner: Vickay's Buddies Syndicate (Seizing The Moment) right\n",
+        "race_info_comment": null,
+        "UUID": "1b08eb334a874c369c886185c51e4a72"
     },
     {
         "url": "https://www.racingpost.com/results/15/doncaster/2022-02-23/803224",
@@ -4987,9 +5623,9 @@
                 "horse_silk": "314073.svg"
             }
         ],
-        "extra_info": "",
-        "race_info_comment": "",
-        "UUID": "f9fd6939233f4cd9aff6508b00504c87"
+        "extra_info": "6 ran Off time: 1:43:36 Winning time: 4m 9.56s (slow by 20.56s) Total SP: 98%\nNon-runners: Galahad Threepwood (withdrawn; vet's advice), Scudamore (unsuitable ground)\nRule 4: Galahad Threepwood was withdrawn. Price at time of withdrawal 5/1. Rule 4 applies to all bets - deduction 15p in the Pound.\n1st owner: Mrs David Coltman & Mrs J Douglas Miller (Ginger Mail) right 1st breeder: Bernard Pierre Le Courtois\n2nd owner: Foxtrot Racing Ridgeway (Ridgeway) right\n3rd owner: Dave & Matt Slater (Cartonne) right\nTote win: \u00a37.80 PL: \u00a32.50 \u00a31.10 Ex: \u00a312.10 CSF: \u00a314.03 Trifecta: \u00a321.80",
+        "race_info_comment": null,
+        "UUID": "8c6e8a3d6bbd4c1bb703e3b096106c38"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805493",
@@ -5304,7 +5940,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Prominent, every chance when pecked on landing 2 out, soon lost second when pushed along and weakened quickly (tchd 5/2)",
+                "horse_comment": "Prominent, every chance when pecked on landing 2 out, soon lost second when pushed along and weakened quickly, burst blood vessel (jockey said gelding burst a blood vessel during this race) (tchd 5/2)",
                 "horse_silk": "306368.svg"
             },
             {
@@ -5327,9 +5963,9 @@
                 "horse_silk": "94495.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "16 ran Off time: 1:35:47 Winning time: 4m 20.20s (slow by 34.20s) Total SP: 133%\nNon-runners: Irish Blaze (not qualified), Reserve Judgement (coughing), Ucandoit (reserve)\n1st owner: Ms H Brassil (Walnut Beach) right 1st breeder: M Larkin, T Monaghan & Mabaki Inv Uc\n2nd owner: Mrs J M Mullins (Haxo) right\n3rd owner: John P McManus (Miss Pronunciation) right\nTote win: \u20ac2.90 PL: \u20ac1.40 \u20ac1.40 \u20ac2 Ex: \u20ac13.90 CSF: \u20ac8.17 Trifecta: \u20ac52.10",
         "race_info_comment": "",
-        "UUID": "c3ec76dbedd842ba92160cb7522bbc2b"
+        "UUID": "9329820ce4cb4f5a8fc9989c68b23b91"
     },
     {
         "url": "https://www.racingpost.com/results/1353/newcastle-aw/2022-02-23/803371",
@@ -5515,9 +6151,9 @@
                 "horse_silk": "256373.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "8 ran Off time: 1:31:25 Winning time: 3m 47.66s (slow by 16.76s) Total SP: 115%\n1st owner: N Park & W Fleming (Khilwafy) right 1st breeder: Shadwell Estate Company Limited\n2nd owner: Mrs Elaine M Burke (Socially Shady) right\n3rd owner: The Hands And Heels Partnership (Riggsby) right\nTote win: \u00a33.75 PL: \u00a31.20 \u00a32.20 \u00a31.10 Ex: \u00a321.10 CSF: \u00a322.42 Tricast: \u00a345.47 Trifecta: \u00a353.50",
         "race_info_comment": "",
-        "UUID": "3eacd32c90474ee88cd969ad9053b153"
+        "UUID": "28adabb2bd724559971091c4102c5eae"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805609",
@@ -5776,9 +6412,9 @@
                 "horse_silk": "293716.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 56.69s (fast by 0.31s) Total SP: 124%\nNon-runners: All In Mind, Flying Bonus\n1st owner: Ho Ho King Syndicate (Whizz Kid) right 1st breeder: Arrowfield Pastoral Pty Ltd\n2nd owner: Francis Yeung (Lightning Storm) right\n3rd owner: Augustine Wong Ho Ming (Harmony Fire) right\n",
         "race_info_comment": null,
-        "UUID": "a226dbc9407042f2a6430e92cc255a1f"
+        "UUID": "a5aa5a278fa044dc98a1b78875dcf016"
     },
     {
         "url": "https://www.racingpost.com/results/195/punchestown/2022-02-23/805495",
@@ -5904,9 +6540,9 @@
                 "horse_silk": "271896.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "5 ran Off time: 1:00:25 Winning time: 5m 23.70s Total SP: 110%\nNon-runners: Gauloise (lame)\n1st owner: Mrs Audrey Turley (Burning Victory) right 1st breeder: Sarl De Chambure & Sarl Riviera Equine\n2nd owner: Bective Stud (Queens Brook) right\n3rd owner: Ms Eleanor Manning (Dysart Diamond) right\nTote win: \u20ac1.40 PL: \u20ac1.10 \u20ac1.30 Ex: \u20ac1.60 CSF: \u20ac2.40 Trifecta: \u20ac4.90",
         "race_info_comment": "",
-        "UUID": "30e18b6df317422b8daefa0c0dea9480"
+        "UUID": "ae5ab1cec6a146e38459a645790b9bc5"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805608",
@@ -6165,9 +6801,9 @@
                 "horse_silk": "314343.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 57.34s (slow by 0.34s) Total SP: 123%\nNon-runners: Diamond Soars, Vamos\n1st owner: Tung Kit Syndicate (Scotch Tycoon) right 1st breeder: T Martin\n2nd owner: Leonard Fong Lik Man & Chong Yih Sam (See U Again) right\n3rd owner: Bonnie Chan Yiting (Oversubscribed) right\n",
         "race_info_comment": null,
-        "UUID": "41455ebf48204135935551a332f5f3af"
+        "UUID": "145c1e1436cb4fe6854a226fe17bec2f"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805607",
@@ -6213,7 +6849,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield on outer, dropped back toward rear of midfield 4f out, shaken up 2 1/2f out, ran on strongly inside final furlong, led final strides",
+                "horse_comment": "Midfield on outer, dropped back toward rear of midfield 4f out, shaken up 2 1/2f out, ran on strongly inside final furlong, led final strides",
                 "horse_silk": "259244.svg"
             },
             {
@@ -6270,7 +6906,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield, ridden along and headway from 1 1/2f out, hung right inside final furlong, not pace to challenge, ridden out",
+                "horse_comment": "Midfield, ridden along and headway from 1 1/2f out, hung right inside final furlong, not pace to challenge, ridden out",
                 "horse_silk": "310193.svg"
             },
             {
@@ -6289,7 +6925,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield, ridden along over 1f out, kept on, never on terms with leaders",
+                "horse_comment": "Midfield, ridden along over 1f out, kept on, never on terms with leaders",
                 "horse_silk": "285684.svg"
             },
             {
@@ -6422,13 +7058,13 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "In midfield, took closer order and driven along 2f out, weakened final furlong",
+                "horse_comment": "Midfield, took closer order and driven along 2f out, weakened final furlong",
                 "horse_silk": "287710.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 1m 9.96s (slow by 0.26s) Total SP: 124%\nNon-runners: Ares, Jazz Angel\n1st owner: Richard Wong Chung Tak (Mercurial) right 1st breeder: O Inglis\n2nd owner: Vicky Huang Wei, Hung Kam Po & Dr Alan Lee Wai Kin (Wine And Wine) right\n3rd owner: Mr & Mrs Lee Kwok Kay (Faribault) right\n",
         "race_info_comment": null,
-        "UUID": "c1ff2370144446e3aa929f5ca01ff13d"
+        "UUID": "5563d905e1d94229a127e713051a7f80"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805606",
@@ -6687,9 +7323,9 @@
                 "horse_silk": "243216.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 1m 39.75s (slow by 1.75s) Total SP: 123%\nNon-runners: Jade Theatre, Viva Popcorn\n1st owner: Edmond Lee Man Bun (Packing Award) right 1st breeder: Mogumber Park\n2nd owner: Yip Wing Kui (Super Red Dragon) right\n3rd owner: Wong Ping Kuen (Sparky Star) right\n",
         "race_info_comment": null,
-        "UUID": "0234e8cefa9446a4acd74129a3ed8605"
+        "UUID": "220e90072dc9477a9537dde707ca2b4e"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805605",
@@ -6811,7 +7447,7 @@
                 "horse_ts": "\u2013",
                 "horse_rpr": "\u2013",
                 "horse_mr": "\u2013",
-                "horse_comment": "Rear of midfield, ridden along 3f out, dropped to last over 2f out, kept on between rivals inside final furlong, never threatened",
+                "horse_comment": "In rear of midfield, ridden along 3f out, dropped to last over 2f out, kept on between rivals inside final furlong, never threatened",
                 "horse_silk": "263060.svg"
             },
             {
@@ -6891,9 +7527,9 @@
                 "horse_silk": "187762.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "9 ran Winning time: 1m 40.07s (slow by 2.07s) Total SP: 122%\n1st owner: Peter Chu Ka Lok & Dr Christopher Chu Ping Wing (Meaningful Star) right 1st breeder: The Kathryn Stud\n2nd owner: Dr Eddy Fong Ching (Gift Of Lifeline) right\n3rd owner: Lam Yau Pik & Rex Lam Lam (Gameplayer Times) right\n",
         "race_info_comment": null,
-        "UUID": "181f717971c74c2c974bfecf3930cf26"
+        "UUID": "b098204283984011856a7da02989d413"
     },
     {
         "url": "https://www.racingpost.com/results/396/happy-valley/2022-02-23/805604",
@@ -7133,9 +7769,9 @@
                 "horse_silk": "172459.svg"
             }
         ],
-        "extra_info": "",
+        "extra_info": "11 ran Winning time: 2m 17.62s (slow by 0.12s) Total SP: 123%\n1st owner: Derby Pal Syndicate (Champion Pal) right 1st breeder: N R Adamson, Mrs D W & J B Robyn\n2nd owner: Joey Tong Yat Sing (Asian One) right\n3rd owner: Lyon Cheng Lai Fung (Natural Storm) right\n",
         "race_info_comment": null,
-        "UUID": "3c0fe3a6527242419685b323690c0f90"
+        "UUID": "a6477b433e134648bd7e75dee12c3c11"
     },
     {
         "url": "https://www.racingpost.com/results/1207/launceston/2022-02-23/805704",
@@ -7365,9 +8001,9 @@
                 "horse_silk": "missing-silk-40x29.133.0.png"
             }
         ],
-        "extra_info": "",
+        "extra_info": "10 ran Winning time: 2m 30.55s Total SP: 117%\n1st owner: S W Wilde, Mrs L A McLauchlan Et Al (Aurora's Symphony) right 1st breeder: R & C Legh Racing Pty Ltd\n2nd owner: A Y L Ho, S H Cheung Et Al (Ho Ho Khan) right\n3rd owner: G J Richards, B R Denys Et Al (The Risk Factor) right\n",
         "race_info_comment": null,
-        "UUID": "7c50310c63424eb6ac044c9df130d496"
+        "UUID": "ab47417bed15409a85f13dfc2d816c5e"
     },
     {
         "url": "https://www.racingpost.com/results/1207/launceston/2022-02-23/805703",
@@ -7635,8 +8271,8 @@
                 "horse_silk": "missing-silk-40x29.133.0.png"
             }
         ],
-        "extra_info": "",
+        "extra_info": "12 ran Winning time: 1m 23.88s Total SP: 120%\nNon-runners: Fighting Phoenix\n1st owner: W G Ryan, Mrs M L Ryan et al (Take The Sit) right 1st breeder: Armidale Stud\n2nd owner: T S Rocks, Mrs G Rocks Et Al (Estoril Park) right\n3rd owner: S P Morrissy, B L Riddle Et Al (Yes Baby Yes) right\n",
         "race_info_comment": null,
-        "UUID": "1638e48e05aa4537bc57f1fd72300ec0"
+        "UUID": "e2e34ae7c99c42728deb6d6b2886fa0e"
     }
 ]
