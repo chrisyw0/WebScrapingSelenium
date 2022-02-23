@@ -357,8 +357,9 @@ class WebScrapper():
 
         Returns 
         ------------
-        bool:
-            Whether the button or URL is clicked
+        (bool, Element):
+            First bool value indicate whether the button or URL is clicked, Second value is the button
+            If failed to click the button, the second value will be None
         
         See Also
         -------------
@@ -371,11 +372,11 @@ class WebScrapper():
         if button:
             try:
                 button.click()
-                return True
-            except WebDriverException as e:
+                return True, button
+            except (WebDriverException, ElementClickInterceptedException) as e:
                 print(e)
 
-        return False
+        return False, None
     
     def stop_scraping(self):
         """

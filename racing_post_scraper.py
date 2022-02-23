@@ -6,6 +6,7 @@ import time
 import uuid
 import json
 import os
+from datetime import datetime
 
 class RacingPostFastResult(WebScrapper):
     """
@@ -25,8 +26,10 @@ class RacingPostFastResult(WebScrapper):
         This is the entry point if you want the whole process.
         """
         self.load_url()
-        self.skip_ads()
         self.accept_cookies()
+
+        time.sleep(10)
+        self.skip_ads()
 
         self.process_main_page()
         self.stop_scraping()
@@ -45,13 +48,12 @@ class RacingPostFastResult(WebScrapper):
         until = self.get_EC_element_clickable(xpath=xpath_accept_cookies)
         super().load_url(wait_seconds, until)
 
-    def skip_ads(self, element_class="ab-close-button"):
+    def skip_ads(self):
         """
         Ask Chrome to open the url and wait the accept cookies button appear
         """
         # skip ads
-        # self.click_button(element_class=element_class)
-        pass
+        self.click_button(element_class="ab-close-button")
 
     def accept_cookies(self):
         """
@@ -84,13 +86,11 @@ class RacingPostFastResult(WebScrapper):
 
             # for each result, click the full result button to go to detail view            
             for element in elements:
-                full_result_button = self.get_web_element(parent=element, xpath=".//a[contains(text(), \"Full result\")]")
+                success, full_result_button = self.click_button(parent=element, xpath=".//a[contains(text(), \"Full result\")]")
 
-                if full_result_button is None:
+                if not success:
                     # imcompleted result, skip this record
                     continue
-
-                full_result_button.click()
 
                 race_info_dict = self.process_detail_page(full_result_button.get_attribute("href"))
                 races.append(race_info_dict)
@@ -295,8 +295,22 @@ class RacingPostFastResult(WebScrapper):
         if len(cache_record) > 0:
             horse_records.append(cache_record)
 
-        # safe the horse information to the dictionary, assign the race with an UUID
+        # safe the horse information to the dictionary
         race_info_dict["horse_rank"] = horse_records
+        
+        # additional race info
+        race_info_ols = self.get_web_elements(xpath="//div[contains(@class, 'rp-raceInfo')]/ul/ol")
+        extra_infos = []
+
+        for ol in race_info_ols:
+            extra_infos.append(ol.text)
+        
+        race_info_dict["extra_info"] = "\n".join(extra_infos)
+
+        race_info_comment = self.get_web_element(xpath="//span[contains(@class, 'rp-raceInfo__comments')]")
+        race_info_dict["race_info_comment"] = race_info_comment.text if race_info_comment else None
+
+        # assign the race with an UUID
         race_info_dict["UUID"] = uuid.uuid4().hex
 
         return race_info_dict
@@ -352,10 +366,12 @@ def main(url, out_path, out_file, image_path):
     
 if __name__ == "__main__":
     args = sys.argv[1:]
+    
+    today = datetime.now()
 
     url = args[0] if len(args) > 0 else "https://www.racingpost.com/fast-results/"
-    out_file = args[1] if len(args) > 1 else "./raw_data/data.json"
-    image_path = args[2] if len(args) > 2 else "./images"
+    out_file = args[1] if len(args) > 1 else f"./raw_data/{today.strftime('%d%m%Y')}.json"
+    image_path = args[2] if len(args) > 2 else "./images/"
 
     if not (url.startswith("http://") or url.startswith("https://")):
         raise ValueError("URL should start with http:// or https://")
