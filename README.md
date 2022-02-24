@@ -17,30 +17,39 @@ The scraper will capture almost every thing in the detail page for every race li
 ### Parameters
 
 **URL: str (Optional)**
-    URL for the fast result page you want to capture the result. Default: https://www.racingpost.com/fast-results/
+URL for the fast result page you want to capture the result. 
+
+Default: https://www.racingpost.com/fast-results/
 
 **Image folder: str (Optional)**
-    Folder path for saving the image (racing silks). Imtermidate folders will be created if needed Default: ./images
+Folder path for saving the image (racing silks). Imtermidate folders will be created if needed 
+
+Default: ./images
 
 **Raw data file: str (Optional)**
-    Folder path for saving the image (racing silks). Imtermidate folders will be created if needed Default: ./raw_data/*%Y%m%d*.json (Today Date in %Y%m%d format, e.g. ./raw_data/20220222.json)
+Folder path for saving the image (racing silks). Imtermidate folders will be created if needed 
+
+Default: ./raw_data/*%Y%m%d*.json (Today Date in %Y%m%d format, e.g. ./raw_data/20220222.json)
 
 ## Result
 
 **Raw data file: json**
-    Please see the sample json file in raw_data folder in this repository 
+Please see the sample json file in raw_data folder in this repository 
 
 **Images:**
-    Expect a 2-layer folder storing the images, e.g. ./images/*UUID*/*file name.svg*
-    where each UUID will be matched to the UUID field of each race, and actual image name will be matched to the horse_silk field in the raw data file.
+Expect a 2-layer folder storing the images, e.g. ./images/*UUID*/*file name.svg*
+where each UUID will be matched to the UUID field of each race, and actual image name will be matched to the horse_silk field in the raw data file.
+
+## Testing
+Two unit tests have been implemented using Pytest, one for checking data correctness of a race on a specific date. Another one for checking data format for yesterday's races. 
 
 ## Require package
 - python
 - selenium
 - webdriver-manager
+- pytest
 
 ## TODO: 
 - Docker configuration
 - Cloud storage and DB configuration
-- Unit test
 - ...

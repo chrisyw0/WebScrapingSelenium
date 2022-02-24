@@ -86,26 +86,24 @@ class WebScrapper():
             wait = WebDriverWait(self.driver, wait_seconds, poll_frequency=1)
             wait.until(wait_until)
 
-    def get_EC_element_clickable(self, xpath=None, class_name=None, element_id=None, css_selector=None):
+    def get_EC_element_clickable(self, xpath=None, element_class=None, element_id=None):
         """
         A helper class to get an element to be clickable object, 
-        either one of xpath, class, id or css selector should be inputed to get the element
+        either one of xpath, class or id should be inputed to get the element
 
         Parameters
         ------------
         xpath: str
             xpath of the element
-        class_name: str
+        element_class: str
             class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
 
         Returns
         -------------
         element_to_be_clickable
-            element to be clickable class searching by either xpath, class, id or css selector
+            element to be clickable class searching by either xpath, class or id
 
         """
 
@@ -113,47 +111,41 @@ class WebScrapper():
 
         if xpath:
             until = EC.element_to_be_clickable((By.XPATH, xpath))
-        elif class_name:
-            until = EC.element_to_be_clickable((By.CLASS_NAME, class_name))
+        elif element_class:
+            until = EC.element_to_be_clickable((By.CLASS_NAME, element_class))
         elif element_id:
             until = EC.element_to_be_clickable((By.ID, element_id))
-        elif css_selector:
-            until = EC.element_to_be_clickable((By.CSS_SELECTOR, css_selector))
 
         return until
 
-    def get_EC_element_presence(self, xpath=None, class_name=None, element_id=None, css_selector=None):
+    def get_EC_element_presence(self, xpath=None, element_class=None, element_id=None):
         """
         A helper class to get an element to be located object, 
-        either one of xpath, class, id or css selector should be inputed to get the element
+        either one of xpath, class or id should be inputed to get the element
 
         Parameters
         ------------
         xpath: str
             xpath of the element
-        class_name: str
+        element_class: str
             class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
 
         Returns
         -------------
         presence_of_element_located
-            element to be located class searching by either xpath, class, id or css selector
+            element to be located class searching by either xpath, class or id
 
         """
         until = None 
 
         if xpath:
             until = EC.presence_of_element_located((By.XPATH, xpath))
-        elif class_name:
-            until = EC.presence_of_element_located((By.CLASS_NAME, class_name))
+        elif element_class:
+            until = EC.presence_of_element_located((By.CLASS_NAME, element_class))
         elif element_id:
             until = EC.presence_of_element_located((By.ID, element_id))
-        elif css_selector:
-            until = EC.presence_of_element_located((By.CSS_SELECTOR, css_selector))
 
         return until
     
@@ -184,7 +176,7 @@ class WebScrapper():
         """
         wait = WebDriverWait(self.driver, wait_secounds, poll_frequency=1).until(until)
 
-    def move_to_element(self, xpath=None, element_class=None, element_id=None, css_selector=None):
+    def move_to_element(self, xpath=None, element_class=None, element_id=None):
         """
         Scroll to element
 
@@ -192,16 +184,14 @@ class WebScrapper():
         ------------
         xpath: str
             xpath of the element
-        class_name: str
+        element_class: str
             class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
         """
 
         action = ActionChains(self.driver)
-        element = self.get_web_element(xpath=xpath, element_class=element_class, element_id=element_id, css_selector=css_selector)
+        element = self.get_web_element(xpath=xpath, element_class=element_class, element_id=element_id)
         
         if element:
             action.move_to_element(element).perform()
@@ -236,9 +226,9 @@ class WebScrapper():
         """
         self.driver.close()
         
-    def get_web_element(self, parent=None, xpath=None, element_id=None, element_class=None, css_selector=None):
+    def get_web_element(self, parent=None, xpath=None, element_id=None, element_class=None):
         """
-        Get an element by either xpath, element id, class or css selector 
+        Get an element by either xpath, element id or class 
         from a element (parent) or the root element
 
         If the element doesn't exist or attach to the web element, it simpliy return None
@@ -249,12 +239,10 @@ class WebScrapper():
             Parent element, will search from root element if not specified
         xpath: str
             xpath of the element
-        class_name: str
-            class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
+        element_class: str
+            class name of the element
 
         Returns
         -------------
@@ -279,16 +267,15 @@ class WebScrapper():
                 element = parent.find_element(By.ID, element_id)
             elif element_class:
                 element = parent.find_element(By.CLASS_NAME, element_class)
-            elif css_selector:
-                element = parent.find_element(By.CSS_SELECTOR, css_selector)
+
         except (NoSuchElementException, StaleElementReferenceException) as e:
             print(e)
 
         return element
     
-    def get_web_elements(self, parent=None, xpath=None, element_id=None, element_class=None, css_selector=None):
+    def get_web_elements(self, parent=None, xpath=None, element_id=None, element_class=None):
         """
-        Get elements by either xpath, element id, class or css selector 
+        Get elements by either xpath, element id or class
         from a element (parent) or the root element.
 
         If the element doesn't exist or attach to the web element, it simpliy return None
@@ -299,12 +286,10 @@ class WebScrapper():
             Parent element, will search from root element if not specified
         xpath: str
             xpath of the element
-        class_name: str
-            class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
+        element_class: str
+            class name of the element
 
         Returns
         -------------
@@ -329,18 +314,16 @@ class WebScrapper():
                 elements = parent.find_elements(By.ID, element_id)
             elif element_class:
                 elements = parent.find_elements(By.CLASS_NAME, element_class)
-            elif css_selector:
-                elements = parent.find_elements(By.CSS_SELECTOR, css_selector)
 
         except (NoSuchElementException, StaleElementReferenceException) as e:
             print(e)
 
         return elements
 
-    def click_button(self, parent=None, xpath=None, element_id=None, element_class=None, css_selector=None, retry=0):
+    def click_button(self, parent=None, xpath=None, element_id=None, element_class=None):
         """
-        Click an URL or button by searching either xpath, element id, class or 
-        css selector from a parent class or root element
+        Click an URL or button by searching either xpath, element id or class
+         from a parent class or root element
 
         Parameters
         ------------
@@ -348,12 +331,10 @@ class WebScrapper():
             Parent element, will search from root element if not specified
         xpath: str
             xpath of the element
-        class_name: str
-            class name of the element
         element_id: str
             element ID of the element
-        css_selector: str
-            CSS selector of the element
+        element_class: str
+            class name of the element
 
         Returns 
         ------------
@@ -367,7 +348,7 @@ class WebScrapper():
 
         """
         
-        button = self.get_web_element(parent=parent, xpath=xpath, element_id=element_id, element_class=element_class, css_selector=css_selector)
+        button = self.get_web_element(parent=parent, xpath=xpath, element_id=element_id, element_class=element_class)
         
         if button:
             try:

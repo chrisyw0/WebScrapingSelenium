@@ -53,7 +53,7 @@ class RacingPostFastResult(WebScrapper):
         Ask Chrome to open the url and wait the accept cookies button appear
         """
         # skip ads
-        self.click_button(element_class="ab-close-button")
+        self.click_button(xpath="//button[contains(@class, 'ab-close-button')]")
 
     def accept_cookies(self):
         """
@@ -192,13 +192,13 @@ class RacingPostFastResult(WebScrapper):
                     horse_records.append(cache_record)
                     cache_record = {}
 
-                # the first td doesn't come with a CSS class, capture the div directly
+                # the first td doesn't come with a class, capture the inner div directly
                 horse_pos_div = self.get_web_element(parent=row, xpath="./td/div[contains(@class, 'rp-horseTable__pos')]")
 
                 horse_pos = self.get_web_element(parent=horse_pos_div, xpath="./div/span[contains(@class, 'rp-horseTable__pos__number')]")
                 horse_draw = self.get_web_element(parent=horse_pos_div, xpath="./div/span/sup[contains(@class, 'rp-horseTable__pos__draw')]")
 
-                horse_length = self.get_web_element(parent=horse_pos_div, xpath="./div/span[contains(@class, 'rp-horseTable__pos__length')]/span")
+                horse_length = self.get_web_element(parent=horse_pos_div, xpath="./div/span[contains(@class, 'rp-horseTable__pos__length')]")
 
                 if horse_pos and horse_draw:
                     horse_pos_text = horse_pos.text.replace(horse_draw.text, "").strip()
@@ -227,6 +227,16 @@ class RacingPostFastResult(WebScrapper):
                         horse_no = self.get_web_element(parent=horse_info, xpath="./span[contains(@class, 'rp-horseTable__saddleClothNo')]")
                         horse_name = self.get_web_element(parent=horse_info, xpath=".//a[contains(@class, 'rp-horseTable__horse__name')]")
 
+                        horse_name_children = self.get_web_elements(parent=horse_name, xpath="./*")
+                        horse_name_text = None
+
+                        # get rid of child element containing unused title
+                        if horse_name:
+                            horse_name_text = horse_name.text
+
+                            for child in horse_name_children:
+                                horse_name_text = horse_name_text.replace(child.text, "")
+
                         horse_country = self.get_web_element(parent=horse_info, xpath=".//span[contains(@class, 'rp-horseTable__horse__country')]")
                         horse_odd = self.get_web_element(parent=horse_info, xpath=".//span[contains(@class, 'rp-horseTable__horse__price')]")
 
@@ -234,7 +244,7 @@ class RacingPostFastResult(WebScrapper):
                         horse_silk = self.get_web_element(parent=horse_cell_div, xpath=".//img[contains(@class, 'rp-horseTable__silk')]")
 
                         cache_record['horse_no'] = horse_no.text if horse_no else None
-                        cache_record['horse_name'] = horse_name.text if horse_name else None
+                        cache_record['horse_name'] = horse_name_text
                         cache_record['horse_country'] = horse_country.text if horse_country else None
                         cache_record['horse_odd'] = horse_odd.text if horse_odd else None
                         cache_record['horse_slik_url'] = horse_silk.get_attribute("src") if horse_silk else None
@@ -256,7 +266,7 @@ class RacingPostFastResult(WebScrapper):
                         cache_record['horse_age'] = horse_age.text if horse_age else None
                     
                     elif 'rp-horseTable__wgt' in td_class:
-                        horse_wgt_span = self.get_web_elements(parent=row, xpath="./span")
+                        horse_wgt_span = self.get_web_elements(parent=td, xpath="./span")
                 
                         for span in horse_wgt_span:
                             span_class = span.get_attribute("class")
@@ -267,6 +277,9 @@ class RacingPostFastResult(WebScrapper):
                             elif 'rp-horseTable__extraData' in span_class:
                                 horse_extra_weight = self.get_web_element(parent=span, xpath="./span")
                                 cache_record['horse_extra_weight'] = horse_extra_weight.text if horse_extra_weight else None
+                            elif 'rp-horseTable__headGear' in span_class:
+                                horse_head_gear = span
+                                cache_record['horse_head_gear'] = horse_head_gear.text if horse_head_gear else None
                             elif span.get_attribute('data-test-selector') == 'horse-weight-lb':
                                 horse_lb = span
                                 cache_record['horse_lb'] = horse_lb.text if horse_lb else None
@@ -302,10 +315,19 @@ class RacingPostFastResult(WebScrapper):
         race_info_ols = self.get_web_elements(xpath="//div[contains(@class, 'rp-raceInfo')]/ul/li")
         extra_infos = []
 
+        # skip svg title for extra info
         for ol in race_info_ols:
-            extra_infos.append(ol.text)
+            ol_text = ol.text
+            ol_children = self.get_web_elements(parent=ol, xpath="./*/*")
+
+            for child in ol_children:
+                if child.tag_name == "svg":
+                    svg_title = child.text
+                    ol_text = ol_text.replace(svg_title, "")
+
+            extra_infos.append(ol_text)
         
-        race_info_dict["extra_info"] = "\n".join(extra_infos)
+        race_info_dict["race_extra_info"] = "\n".join(extra_infos)
 
         race_info_comment = self.get_web_element(xpath="//span[contains(@class, 'rp-raceInfo__comments')]")
         race_info_dict["race_info_comment"] = race_info_comment.text if race_info_comment else None
@@ -370,7 +392,7 @@ if __name__ == "__main__":
     today = datetime.now()
 
     url = args[0] if len(args) > 0 else "https://www.racingpost.com/fast-results/"
-    out_file = args[1] if len(args) > 1 else f"./raw_data/{today.strftime('%d%m%Y')}.json"
+    out_file = args[1] if len(args) > 1 else f"./raw_data/{today.strftime('%Y%m%d')}.json"
     image_path = args[2] if len(args) > 2 else "./images/"
 
     if not (url.startswith("http://") or url.startswith("https://")):
