@@ -1,0 +1,11 @@
+---
+aws-postgresql:
+  dbapi: "psycopg2"
+  endpoint: "{Your endpoint}"
+  username: "{Your username}"
+  dbtype: "postgresql"
+  password: "{Your password}"
+  port: 5432
+  database: "{Your database}"
+aws-s3:
+  bucket: "{Your bucket}"

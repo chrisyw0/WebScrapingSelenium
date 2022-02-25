@@ -386,8 +386,9 @@ class WebScrapper():
 
         """
 
-        local_filename = file_name if file_name else url.split('/')[-1]
         try: 
+            local_filename = file_name if file_name else url.split('/')[-1]
+            
             with requests.get(url, stream=True) as r:
                 r.raise_for_status()
 

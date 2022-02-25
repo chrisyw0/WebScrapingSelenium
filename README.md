@@ -40,16 +40,24 @@ Please see the sample json file in raw_data folder in this repository
 Expect a 2-layer folder storing the images, e.g. ./images/*UUID*/*file name.svg*
 where each UUID will be matched to the UUID field of each race, and actual image name will be matched to the horse_silk field in the raw data file.
 
+## S3 and RDS integration
+Besides saving the raw data and images locally, the script also uploads the files into AWS S3 and RDS. For S3, it simpliy stores the raws data and image files. For RDS, the raw data is firstly normalized into 3 tables (race, prize and horse), and then uploaded into PostgresSQL based DB. 
+
+The yaml file stored the AWS connection related config, there is a sample file called *aws_config_sample.yaml* is included in this project. To change to configuration for uploading into your server, replace the content of your server and rename it as *aws.yaml*. 
+
 ## Testing
-Two unit tests have been implemented using Pytest, one for checking data correctness of a race on a specific date. Another one for checking data format for yesterday's races. 
+Two unit tests have been implemented using Pytest, one for checking data correctness of a race on a specific date. Another one for checking data format for yesterday's races. Please check racing_post_test.py for details. 
 
 ## Require package
 - python
 - selenium
 - webdriver-manager
 - pytest
+- awscli
+- boto3
+- psycopg2
 
 ## TODO: 
 - Docker configuration
-- Cloud storage and DB configuration
+- Integration test
 - ...
