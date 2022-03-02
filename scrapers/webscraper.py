@@ -37,10 +37,11 @@ class WebScrapper():
         print(url, image_path, out_path, out_file)
 
         self.url = url
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
-        self.option = Options()
-        self.option.headless = True
+        options = Options()
+        options.headless = True
+
+        self.driver = webdriver.Chrome(options=options)
 
         if not image_path.endswith("/"):
             image_path += "/"
