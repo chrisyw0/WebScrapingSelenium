@@ -61,6 +61,8 @@ The yaml file stored the AWS connection related config, there is a sample file c
 - awscli
 - boto3
 - psycopg2
+- sqlalchemy
+- pandas
 
 ## TODO: 
 - Docker configuration
