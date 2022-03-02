@@ -19,7 +19,8 @@ The scraper will capture almost every thing in the detail page for every race li
 **URL: str (Optional)**
 URL for the fast result page you want to capture the result. 
 
-Default: https://www.racingpost.com/fast-results/
+URL for yesterday's races
+Default: https://www.racingpost.com/results/2022-02-22/time-order/
 
 **Image folder: str (Optional)**
 Folder path for saving the image (racing silks). Imtermidate folders will be created if needed 
@@ -29,7 +30,7 @@ Default: ./images
 **Raw data file: str (Optional)**
 Folder path for saving the raw data (in json format). Imtermidate folders will be created if needed 
 
-Default: ./raw_data/*%Y%m%d*.json (Today Date in %Y%m%d format, e.g. ./raw_data/20220222.json)
+Default: ./raw_data/*%Y%m%d*.json (Yesterday in %Y%m%d format, e.g. ./raw_data/20220222.json)
 
 **Force Capture**
 This option allow re-capturing the races that have been saved into DB previously. The existing records will be replaced by the newly captured records and uploaded in AWS RDS. Input *True* to enable this feature. 

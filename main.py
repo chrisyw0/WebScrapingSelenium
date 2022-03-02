@@ -1,6 +1,6 @@
 from racing_post.racing_post_scraper import RacingPostFastResult
 import sys
-from datetime import datetime
+from datetime import date, timedelta
 
 def main(url : str, out_path : str, out_file : str, image_path : str, force_capture : bool):
     """
@@ -28,10 +28,10 @@ def main(url : str, out_path : str, out_file : str, image_path : str, force_capt
 if __name__ == "__main__":
     args = sys.argv[1:]
     
-    today = datetime.now()
+    yesterday = date.today() - timedelta(days=1)
 
-    url = args[0] if len(args) > 0 else "https://www.racingpost.com/fast-results/"
-    out_file = args[1] if len(args) > 1 else f"./raw_data/{today.strftime('%Y%m%d')}.json"
+    url = args[0] if len(args) > 0 else f"https://www.racingpost.com/results/{yesterday.strftime('%Y-%m-%d')}/time-order/"
+    out_file = args[1] if len(args) > 1 else f"./raw_data/{yesterday.strftime('%Y%m%d')}.json"
     image_path = args[2] if len(args) > 2 else "./images/"
     force_capture =  args[3] == 'True' if len(args) > 3 else False
 
