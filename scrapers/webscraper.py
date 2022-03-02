@@ -1,8 +1,5 @@
-import time
 import requests
 import os
-from nis import cat
-from xml.dom.minidom import Element
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -11,25 +8,30 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
-from multiprocessing.connection import wait
+from selenium.webdriver.remote.webelement import WebElement
+from typing import Optional, Any, Tuple, List
 
 class WebScrapper():
     """
     This is the base class of doing web scraping
     """
-    def __init__(self, url, image_path=None, out_path=None, out_file=None):
+    def __init__(self, url : str, image_path : str = None, out_path : str = None, out_file : str = None, force_capture : bool = False, is_testing : bool = False) -> None:
         """
         Constructor
         Parameters
         ----------
         url: str
-            the url
+            The url
         image_path: str
-            the path that you want to save the image
+            The path that you want to save the image
         out_path: str
-            the path that you want to save the raw data file
+            The path that you want to save the raw data file
         out_file: str
-            the file name for the raw data file
+            The file name for the raw data file
+        force_capture: bool
+            Capture the races that have already existed in the database 
+        is_testing: bool
+            Whether the process is run in testing mode
         """
 
         print(url, image_path, out_path, out_file)
@@ -50,6 +52,9 @@ class WebScrapper():
 
         self.out_path = out_path
         self.out_file = out_file
+
+        self.force_capture = force_capture
+        self.is_testing = is_testing
         
         print("Result scraper class created")
         print("================================================")
@@ -58,13 +63,13 @@ class WebScrapper():
         print(f"Raw data file {self.out_path + self.out_file}")
         print("================================================")
 
-    def process(self):
+    def process(self) -> None:
         """
         Please write your own function in the subclass
         """
         pass
 
-    def load_url(self, wait_seconds=10, wait_until=None):
+    def load_url(self, wait_seconds : int = 10, wait_until : Any = None) -> None:
         """
         Ask Chrome to open the url and wait the accept cookies button appear
 
@@ -86,7 +91,7 @@ class WebScrapper():
             wait = WebDriverWait(self.driver, wait_seconds, poll_frequency=1)
             wait.until(wait_until)
 
-    def get_EC_element_clickable(self, xpath=None, element_class=None, element_id=None):
+    def get_EC_element_clickable(self, xpath : str = None, element_class : str = None, element_id : str = None) -> Optional[EC.element_to_be_clickable]:
         """
         A helper class to get an element to be clickable object, 
         either one of xpath, class or id should be inputed to get the element
@@ -118,7 +123,7 @@ class WebScrapper():
 
         return until
 
-    def get_EC_element_presence(self, xpath=None, element_class=None, element_id=None):
+    def get_EC_element_presence(self, xpath : str = None, element_class : str = None, element_id : str = None) -> Optional[EC.element_to_be_clickable]:
         """
         A helper class to get an element to be located object, 
         either one of xpath, class or id should be inputed to get the element
@@ -149,7 +154,7 @@ class WebScrapper():
 
         return until
     
-    def get_EC_window_open(self):
+    def get_EC_window_open(self) -> EC.new_window_is_opened:
         """
         A helper class to get an EC object for a window is opened, 
         
@@ -162,7 +167,7 @@ class WebScrapper():
         handles = self.driver.window_handles
         return EC.new_window_is_opened(handles)
 
-    def wait_until(self, until, wait_secounds=10):
+    def wait_until(self, until : Any, wait_secounds : int = 10) -> None:
         """
         Ask Selenium to wait for something happen in some seconds 
 
@@ -174,9 +179,9 @@ class WebScrapper():
             number of seconds to be waited
         
         """
-        wait = WebDriverWait(self.driver, wait_secounds, poll_frequency=1).until(until)
+        WebDriverWait(self.driver, wait_secounds, poll_frequency=1).until(until)
 
-    def move_to_element(self, xpath=None, element_class=None, element_id=None):
+    def move_to_element(self, xpath : str = None, element_class : str = None, element_id : str = None)  -> None:
         """
         Scroll to element
 
@@ -196,7 +201,7 @@ class WebScrapper():
         if element:
             action.move_to_element(element).perform()
 
-    def get_number_of_windows(self):
+    def get_number_of_windows(self) -> int:
         """
         Get number of windows opened
 
@@ -208,7 +213,7 @@ class WebScrapper():
 
         return len(self.driver.window_handles)
 
-    def switch_to_new_window(self, window_pos=-1):
+    def switch_to_new_window(self, window_pos : int = -1) -> None:
         """
         Switch to new window
 
@@ -218,15 +223,15 @@ class WebScrapper():
             window position, 0 means current window, 1 means next window, -1 means the last window
         
         """
-        self.driver.switch_to.window(self.driver.window_handles[-1])
+        self.driver.switch_to.window(self.driver.window_handles[window_pos])
 
-    def close_current_window(self):
+    def close_current_window(self) -> None:
         """
         Close current window
         """
         self.driver.close()
         
-    def get_web_element(self, parent=None, xpath=None, element_id=None, element_class=None):
+    def get_web_element(self, parent : WebElement = None, xpath : str = None, element_id : str = None, element_class : str = None) -> Optional[WebElement]:
         """
         Get an element by either xpath, element id or class 
         from a element (parent) or the root element
@@ -246,7 +251,7 @@ class WebScrapper():
 
         Returns
         -------------
-        WebElement
+        Optional[WebElement]
             element to be located under parent or the root web element
 
         See Also
@@ -273,7 +278,7 @@ class WebScrapper():
 
         return element
     
-    def get_web_elements(self, parent=None, xpath=None, element_id=None, element_class=None):
+    def get_web_elements(self, parent : WebElement = None, xpath : str = None, element_id : str = None, element_class : str = None) -> Optional[List[WebElement]]:
         """
         Get elements by either xpath, element id or class
         from a element (parent) or the root element.
@@ -293,7 +298,7 @@ class WebScrapper():
 
         Returns
         -------------
-        List of WebElement
+        Optional[list(WebElement)]
             elements to be located under parent or the root web element
 
         See Also
@@ -320,7 +325,7 @@ class WebScrapper():
 
         return elements
 
-    def click_button(self, parent=None, xpath=None, element_id=None, element_class=None):
+    def click_button(self, parent : WebElement = None, xpath : str = None, element_id : str = None, element_class : str = None) -> Tuple[bool, Optional[WebElement]]:
         """
         Click an URL or button by searching either xpath, element id or class
          from a parent class or root element
@@ -338,7 +343,7 @@ class WebScrapper():
 
         Returns 
         ------------
-        (bool, Element):
+        Tuple[bool, Optional[WebElement])]:
             First bool value indicate whether the button or URL is clicked, Second value is the button
             If failed to click the button, the second value will be None
         
@@ -359,14 +364,14 @@ class WebScrapper():
 
         return False, None
     
-    def stop_scraping(self):
+    def stop_scraping(self) -> None:
         """
         Simpliy close the web driver and release the resource
         """
         self.driver.quit()
 
     @staticmethod
-    def download_image(url, img_path, file_name=None):
+    def download_image(url : str, img_path : str, file_name : str = None) -> str:
         """
         Download a image from an URL and save to the path
         

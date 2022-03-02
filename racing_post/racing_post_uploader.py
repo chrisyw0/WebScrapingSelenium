@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 import yaml
 import boto3
 import pandas as pd 
+from typing import Optional
 
 class RacingPostUploader():
     """
@@ -27,7 +28,7 @@ class RacingPostUploader():
         self.s3_bucket = aws_config["aws-s3"]["bucket"]
         
     @staticmethod
-    def read_cloud_config(config_file="./aws.yaml"):
+    def read_cloud_config(config_file : str = "./aws.yaml") -> dict:
         """
         Helper function to read S3 and RDS config
 
@@ -48,7 +49,7 @@ class RacingPostUploader():
 
         return aws_config
 
-    def upload_postgreSQL(self, dataframe, table_name):
+    def upload_postgreSQL(self, dataframe : pd.DataFrame, table_name : str, if_existed : str = "append") -> None:
         """
         Upload dataframe into RDS (PostgreSQL)
 
@@ -58,11 +59,13 @@ class RacingPostUploader():
             Dataframe that represening data in tabular format
         table_name: str
             Table's name in RDS
+        if_exists: str
+            Use "append" to append to the table or use "replace" to replace the entire table
 
         """
-        dataframe.to_sql(table_name, self.engine, if_exists='append')
+        dataframe.to_sql(table_name, self.engine, if_exists=if_existed)
 
-    def get_postgreSQL(self, table_name):
+    def get_postgreSQL(self, table_name : str) -> Optional[pd.DataFrame]:
         """
         Read dataframe from RDS (PostgreSQL)
 
@@ -73,13 +76,19 @@ class RacingPostUploader():
 
         Returns
         =================
-        pd.DataFrame:
-            Dataframe retrived from RDS
-        """
-        
-        return pd.read_sql_table(table_name, self.engine)
+        Optional[pd.DataFrame]:
+            Dataframe retrived from RDS or None if table not found
 
-    def upload_to_s3(self, file_path, key_name, busket=None):
+        """
+
+        try:
+            return pd.read_sql_table(table_name, self.engine)
+        except ValueError:
+            pass    
+            
+        return None
+
+    def upload_to_s3(self, file_path : str, key_name : str, busket : str = None) -> str:
         """
         Upload file into S3
 
@@ -115,7 +124,7 @@ class RacingPostUploader():
 
         return object_url
 
-    def download_from_s3(self, file_path, key_name, busket=None):
+    def download_from_s3(self, file_path : str, key_name : str, busket : str = None) -> None:
         """
         Download file from S3
 
@@ -137,7 +146,7 @@ class RacingPostUploader():
         s3_client = boto3.client('s3')
         s3_client.download_file(busket, file_path, key_name)
 
-    def close_connection(self):
+    def close_connection(self) -> None:
         """
         Close any opened DB connection
         """
