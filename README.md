@@ -20,7 +20,9 @@ The scraper will capture almost every thing in the detail page for every race li
 URL for the fast result page you want to capture the result. 
 
 URL for yesterday's races
-Default: https://www.racingpost.com/results/2022-02-22/time-order/
+Default: https://www.racingpost.com/results/{date}/time-order/
+
+e.g. https://www.racingpost.com/results/2022-02-22/time-order/
 
 **Image folder: str (Optional)**
 Folder path for saving the image (racing silks). Imtermidate folders will be created if needed 
@@ -49,7 +51,22 @@ where each UUID will be matched to the UUID field of each race, and actual image
 ## S3 and RDS integration
 Besides saving the raw data and images locally, the script also uploads the files into AWS S3 and RDS. For S3, it simpliy stores the raws data and image files. For RDS, the raw data is firstly normalized into 3 tables (race, prize and horse), and then uploaded into PostgresSQL based DB. 
 
-The yaml file stored the AWS connection related config, there is a sample file called *aws_config_sample.yaml* is included in this project. To change to configuration for uploading into your server, replace the content of your server and rename it as *aws.yaml*. 
+The yaml file stored the AWS connection related config, there is a sample file called *aws.yaml* is included in this project. To change to configuration for uploading into your server, replace the content of your server. 
+
+The script is able to read environmental variables from the AWS config file. Use ${your variable name} in the config file as shown in the sample file.
+
+## Docker
+A Docker image build script is included in this repository, you may want to build the image and run it on your server. The image is based on python 3.9 and will automatically install chrome, webdriver, and required packages for the script. To build the image, use the command
+
+*docker build -t <tagname> .*
+Add option --platform=linux/amd64 if you are not building your image with linux. 
+
+To run the script, simply use command 
+
+*docker run <tagname> python main.py ......*
+
+If you use environment for AWS config, you will need 
+*'-e <env name>=<value>'*
 
 ## Testing
 11 unit tests and 2 integration tests have been implemented using Pytest. For unit tests, it tests the whole process in each public function (mainly the steps of the whole process). For integration tests, one for checking data correctness of a race on a specific date. Another one for checking data format for yesterday's races. Please check /test/racing_post_test.py for details. 
@@ -57,14 +74,11 @@ The yaml file stored the AWS connection related config, there is a sample file c
 ## Require package
 - python
 - selenium
-- webdriver-manager
 - pytest
-- awscli
 - boto3
 - psycopg2
 - sqlalchemy
 - pandas
 
-## TODO: 
-- Docker configuration
+## TODO:
 - ...
