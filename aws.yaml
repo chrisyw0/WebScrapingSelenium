@@ -1,0 +1,14 @@
+---
+aws-postgresql:
+  dbapi: "psycopg2"
+  endpoint: ${RS_AWS_POSTGRESQL_ENDPOINT}
+  username: ${RS_AWS_POSTGRESQL_USERNAME}
+  dbtype: "postgresql"
+  password: ${RS_AWS_POSTGRESQL_PASSWORD}
+  port: 5432
+  database: ${RS_AWS_POSTGRESQL_DB}
+aws-s3:
+  bucket: ${RS_AWS_S3_BUCKET}
+  access_key_id: ${RS_AWS_S3_ACCESS_KEY_ID}
+  secret_access_key: ${RS_AWS_S3_SECRET_ACCESS_KEY}
+  region_name: ${RS_AWS_S3_REGION_NAME}
