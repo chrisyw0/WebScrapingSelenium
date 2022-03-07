@@ -464,11 +464,11 @@ class RacingPostFastResult(WebScrapper):
                 self.switch_to_new_window()
 
                 # randomly sleep to avoid being suspicious 
-                sleep_second = random.randrange(5.0, 10.0)
+                sleep_second = random.randint(5, 10)
                 time.sleep(sleep_second)
 
                 #TODO: TESTING
-                # if len(races) == 2:
+                # if len(races) == 1:
                 #     break
 
         self.races = races
@@ -745,7 +745,7 @@ class RacingPostFastResult(WebScrapper):
                         horse.horse_silk = same_silk["horse_silk"].iloc[0] if same_silk is not None else None
 
 
-            sleep_second = random.randrange(3.0)
+            sleep_second = random.randint(1, 5)
             time.sleep(sleep_second)
 
     def normalize_race_record(self, race_list : list[dict] = None) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:

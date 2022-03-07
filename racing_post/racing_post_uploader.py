@@ -4,6 +4,8 @@ import yaml
 import boto3
 import pandas as pd 
 from typing import Optional
+import os
+import re
 
 class RacingPostUploader():
     """
@@ -26,11 +28,17 @@ class RacingPostUploader():
         self.engine.connect()
 
         self.s3_bucket = aws_config["aws-s3"]["bucket"]
+        self.s3_client = boto3.client('s3',
+            aws_access_key_id=aws_config["aws-s3"]["access_key_id"],
+            aws_secret_access_key=aws_config["aws-s3"]["secret_access_key"],
+            region_name=aws_config["aws-s3"]["region_name"]
+        )
         
     @staticmethod
     def read_cloud_config(config_file : str = "./aws.yaml") -> dict:
         """
-        Helper function to read S3 and RDS config
+        Helper function to read S3 and RDS config. For environmental varaibles, 
+        use ${ENV_NAME} where ENV_NAME is the name of environmental variable.
 
         Parameters
         =================
@@ -43,12 +51,23 @@ class RacingPostUploader():
             AWS config in dictionary format
 
         """
+        env_pattern = re.compile(r".*?\${(.*?)}.*?")
+        def env_constructor(loader, node):
+            value = loader.construct_scalar(node)
+            for group in env_pattern.findall(value):
+                # print(group, os.environ.get(group))
+                value = value.replace(f"${{{group}}}", os.environ.get(group))
+            return value
+
+        yaml.SafeLoader.add_implicit_resolver("!pathex", env_pattern, None)
+        yaml.SafeLoader.add_constructor("!pathex", env_constructor)
+
         # read config
-        with open(config_file, "r") as f:
-            aws_config = yaml.safe_load(f)
-
+        f = open(config_file, "r")
+        aws_config = yaml.safe_load(f)
+        
         return aws_config
-
+        
     def upload_postgreSQL(self, dataframe : pd.DataFrame, table_name : str, if_existed : str = "append") -> None:
         """
         Upload dataframe into RDS (PostgreSQL)
@@ -112,10 +131,8 @@ class RacingPostUploader():
         if not busket:
             busket = self.s3_bucket
 
-        s3_client = boto3.client('s3')
-        response = s3_client.upload_file(file_path, busket, key_name)
-
-        bucket_location = boto3.client('s3').get_bucket_location(Bucket=busket)
+        response = self.s3_client.upload_file(file_path, busket, key_name)
+        bucket_location = self.s3_client.get_bucket_location(Bucket=busket)
 
         object_url = "https://s3-{0}.amazonaws.com/{1}/{2}".format(
             bucket_location['LocationConstraint'],
@@ -143,8 +160,7 @@ class RacingPostUploader():
         if not busket:
             busket = self.s3_bucket
 
-        s3_client = boto3.client('s3')
-        s3_client.download_file(busket, file_path, key_name)
+        self.s3_client.download_file(busket, file_path, key_name)
 
     def close_connection(self) -> None:
         """

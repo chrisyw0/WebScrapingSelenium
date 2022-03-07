@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webelement import WebElement
 from typing import Optional, Any, Tuple, List
@@ -39,7 +38,9 @@ class WebScrapper():
         self.url = url
 
         options = Options()
-        options.headless = True
+        options.add_argument("--no-sandbox")
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
 
         self.driver = webdriver.Chrome(options=options)
 
@@ -180,7 +181,10 @@ class WebScrapper():
             number of seconds to be waited
         
         """
-        WebDriverWait(self.driver, wait_secounds, poll_frequency=1).until(until)
+        try:
+            WebDriverWait(self.driver, wait_secounds, poll_frequency=1).until(until)
+        except TimeoutException as e:
+            print(e)
 
     def move_to_element(self, xpath : str = None, element_class : str = None, element_id : str = None)  -> None:
         """
